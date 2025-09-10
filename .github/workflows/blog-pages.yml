@@ -33,12 +33,14 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_branch: gh-pages
           publish_dir: ./blog_build
+          publish_branch: gh-pages       # deploy 先
           user_name: "github-actions[bot]"
           user_email: "github-actions[bot]@users.noreply.github.com"
-          force_orphan: true
+          force_orphan: true             # 初回 push に必要
+          allow_empty_commit: true       # 空コミットも許可（初回でファイル生成が遅れる場合に安全）
           commit_message: "Deploy blog via GitHub Actions"
+
 
 
       - name: Check blog_build contents
