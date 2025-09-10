@@ -3,52 +3,37 @@ name: Build and Deploy Blog
 on:
   push:
     branches:
-      - main  # mainブランチにpushされたときに実行
+      - main
 
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
 
     steps:
-      # リポジトリをチェックアウト
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      # Ruby 環境をセットアップ（Jekyll 必須）
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.2'  # Chirpy が推奨するRubyバージョン
+          ruby-version: '3.2'
 
-      # Bundlerのインストール
       - name: Install Bundler
         run: gem install bundler
 
-      # 依存gemのインストール
       - name: Install dependencies
-        run: |
-          cd blog
-          bundle install
+        run: bundle install
+        working-directory: ./blog   # blog フォルダで実行
 
-      # Jekyll のビルド
       - name: Build blog
-        run: |
-          cd blog
-          bundle exec jekyll build -d ../blog_build
-
-      # ビルド結果を /blog にデプロイ
-      - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./blog_build
-          # 既存のHPを残すので force: true は不要
+        run: bundle exec jekyll build -d ../blog_build
+        working-directory: ./blog   # blog フォルダで実行
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./blog_build
-          user_name: "github-actions[bot]"       # ← ここで Git ユーザー名を明示
-          user_email: "github-actions[bot]@users.noreply.github.com"  # ← Git メールアドレス
+          user_name: "github-actions[bot]"
+          user_email: "github-actions[bot]@users.noreply.github.com"
           force: true
