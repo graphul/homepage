@@ -1,0 +1,47 @@
+
+
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>https://graphul.jp/blog/</id>
+  <title>グラフルブログ</title>
+  <subtitle>会計や資金繰り表に関する内容をお届けします。</subtitle>
+  <updated>2025-09-10T23:23:49+09:00</updated>
+  <author>
+    <name>株式会社グラフル</name>
+    <uri>https://graphul.jp/blog/</uri>
+  </author>
+  <link rel="self" type="application/atom+xml" href="https://graphul.jp/blog/feed.xml"/>
+  <link rel="alternate" type="text/html" hreflang="ja"
+    href="https://graphul.jp/blog/"/>
+  <generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator>
+  <rights> © 2025 株式会社グラフル </rights>
+  <icon>/blog/assets/img/favicons/favicon.ico</icon>
+  <logo>/blog/assets/img/favicons/favicon-96x96.png</logo>
+
+
+  
+  <entry>
+    <title>ブログ公開準備中</title>
+    <link href="https://graphul.jp/blog/posts/coming-soon.md/" rel="alternate" type="text/html" title="ブログ公開準備中" />
+    <published>2025-09-09T12:00:00+09:00</published>
+  
+    <updated>2025-09-09T12:00:00+09:00</updated>
+  
+    <id>https://graphul.jp/blog/posts/coming-soon.md/</id>
+    <content type="text/html" src="https://graphul.jp/blog/posts/coming-soon.md/" />
+    <author>
+      <name>株式会社グラフル</name>
+    </author>
+
+  
+    
+    <category term="お知らせ" />
+    
+  
+
+  <summary>当社ブログは現在準備中です。近日中に記事を公開予定ですので、ぜひご期待ください。</summary>
+
+  </entry>
+
+</feed>
+
+
