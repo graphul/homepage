@@ -22,26 +22,23 @@ jobs:
         run: gem install bundler
 
       - name: Install dependencies
-        run: bundle install
-        working-directory: ./blog   # blog フォルダで実行
+        run: |
+          cd blog
+          bundle install
 
       - name: Build blog
-        run: bundle exec jekyll build -d ./blog_build
-        working-directory: ./blog   # blog フォルダで実行
+        run: |
+          cd blog
+          bundle exec jekyll build -d ../blog_build
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./blog_build
-          publish_branch: gh-pages       # deploy 先
+          publish_branch: gh-pages
           user_name: "github-actions[bot]"
           user_email: "github-actions[bot]@users.noreply.github.com"
-          force_orphan: true             # 初回 push に必要
-          allow_empty_commit: true       # 空コミットも許可（初回でファイル生成が遅れる場合に安全）
+          force_orphan: true       # 初回 push 用
+          allow_empty_commit: true # 初回で blog_build が空でも安全
           commit_message: "Deploy blog via GitHub Actions"
-
-
-
-      - name: Check blog_build contents
-        run: ls -la ./blog_build
