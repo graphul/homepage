@@ -26,15 +26,20 @@ jobs:
         working-directory: ./blog   # blog フォルダで実行
 
       - name: Build blog
-        run: bundle exec jekyll build -d ../blog_build
+        run: bundle exec jekyll build -d ./blog_build
         working-directory: ./blog   # blog フォルダで実行
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: gh-pages
           publish_dir: ./blog_build
           user_name: "github-actions[bot]"
           user_email: "github-actions[bot]@users.noreply.github.com"
-          force_orphan: true          # 既存ブランチがあっても上書き
+          force_orphan: true
           commit_message: "Deploy blog via GitHub Actions"
+
+
+      - name: Check blog_build contents
+        run: ls -la ./blog_build
