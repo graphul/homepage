@@ -43,3 +43,12 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./blog_build
           # 既存のHPを残すので force: true は不要
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./blog_build
+          user_name: "github-actions[bot]"       # ← ここで Git ユーザー名を明示
+          user_email: "github-actions[bot]@users.noreply.github.com"  # ← Git メールアドレス
+          force: true
