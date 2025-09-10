@@ -1,0 +1,45 @@
+name: Build and Deploy Blog
+
+on:
+  push:
+    branches:
+      - main  # mainブランチにpushされたときに実行
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      # リポジトリをチェックアウト
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # Ruby 環境をセットアップ（Jekyll 必須）
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.2'  # Chirpy が推奨するRubyバージョン
+
+      # Bundlerのインストール
+      - name: Install Bundler
+        run: gem install bundler
+
+      # 依存gemのインストール
+      - name: Install dependencies
+        run: |
+          cd blog
+          bundle install
+
+      # Jekyll のビルド
+      - name: Build blog
+        run: |
+          cd blog
+          bundle exec jekyll build -d ../blog_build
+
+      # ビルド結果を /blog にデプロイ
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./blog_build
+          # 既存のHPを残すので force: true は不要
