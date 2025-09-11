@@ -20,9 +20,10 @@ jobs:
       # Jekyll build
       - name: Build Jekyll blog
         run: |
-          cd homepage/blog_src
+          cd blog_src
           bundle install
           bundle exec jekyll build
+
 
       # 会社HPを gh-pages ルートにコピー
       - name: Deploy Company HP
@@ -38,6 +39,7 @@ jobs:
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./homepage/blog_src/_site
+          publish_dir: ./blog_src/_site
           destination_dir: blog
           keep_files: true
+
