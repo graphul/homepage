@@ -20,13 +20,14 @@ jobs:
 
       - name: Install dependencies
         run: |
-          cd homepage/blog_src
+          cd blog_src
           bundle install
 
       - name: Build Jekyll site
         run: |
-          cd homepage/blog_src
+          cd blog_src
           bundle exec jekyll build --destination ../blog
+
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
