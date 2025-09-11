@@ -1,17 +1,13 @@
----
-layout: compress
-swcache: true
----
-
 [
-  {% for post in site.posts %}
+  
   {
-    "title": {{ post.title | jsonify }},
-    "url": {{ post.url | relative_url | jsonify }},
-    "categories": {{ post.categories | join: ', ' | jsonify }},
-    "tags": {{ post.tags | join: ', ' | jsonify }},
-    "date": {{ post.date | jsonify }},
-    "content": {% include post-description.html json=true %}
-  }{% unless forloop.last %},{% endunless %}
-  {% endfor %}
+    "title": "ブログ公開準備中",
+    "url": "/blog/posts/coming-soon.md/",
+    "categories": "お知らせ",
+    "tags": "準備中",
+    "date": "2025-09-09 12:00:00 +0900",
+    "content": "当社ブログは現在準備中です。近日中に記事を公開予定ですので、ぜひご期待ください。 "
+  }
+  
 ]
+
