@@ -1,4 +1,4 @@
-name: Build and Deploy Blog
+name: Build and Deploy
 
 on:
   push:
@@ -6,31 +6,38 @@ on:
       - main
 
 jobs:
-  build-and-deploy:
+  deploy:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
-      - name: Setup Ruby
-        uses: ruby/setup-ruby@v1
+      # Ruby セットアップ
+      - uses: ruby/setup-ruby@v1
         with:
           ruby-version: '3.1'
+          bundler-cache: true
 
-      - name: Install dependencies
+      # Jekyll build
+      - name: Build Jekyll blog
         run: |
-          cd blog_src
+          cd homepage/blog_src
           bundle install
+          bundle exec jekyll build
 
-      - name: Build Jekyll site
-        run: |
-          cd blog_src
-          bundle exec jekyll build --destination ../blog
-
-
-      - name: Deploy to GitHub Pages
+      # 会社HPを gh-pages ルートにコピー
+      - name: Deploy Company HP
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./homepage
+          publish_dir: ./             # main直下の会社HPをそのまま
+          destination_dir: .
+          keep_files: true
+
+      # ブログを gh-pages/blog に配置
+      - name: Deploy Blog
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./homepage/blog_src/_site
+          destination_dir: blog
+          keep_files: true
