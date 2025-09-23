@@ -4,7 +4,7 @@
   <id>http://localhost:4000/blog/</id>
   <title>グラフルブログ</title>
   <subtitle>会計や資金繰り表に関する内容をお届けします。</subtitle>
-  <updated>2025-09-14T02:02:17+09:00</updated>
+  <updated>2025-09-23T10:25:13+09:00</updated>
   <author>
     <name>株式会社グラフル</name>
     <uri>http://localhost:4000/blog/</uri>
@@ -21,13 +21,13 @@
   
   <entry>
     <title>「資金繰り表」と「キャッシュフロー計算書」の決定的な違いとは？</title>
-    <link href="http://localhost:4000/blog/posts/cashflow-vs-funds.md/" rel="alternate" type="text/html" title="「資金繰り表」と「キャッシュフロー計算書」の決定的な違いとは？" />
-    <published>2025-09-13T10:00:00+09:00</published>
+    <link href="http://localhost:4000/blog/posts/cashflow-vs-funds/" rel="alternate" type="text/html" title="「資金繰り表」と「キャッシュフロー計算書」の決定的な違いとは？" />
+    <published>2025-09-23T08:00:00+09:00</published>
   
-    <updated>2025-09-13T10:00:00+09:00</updated>
+    <updated>2025-09-23T08:00:00+09:00</updated>
   
-    <id>http://localhost:4000/blog/posts/cashflow-vs-funds.md/</id>
-    <content type="text/html" src="http://localhost:4000/blog/posts/cashflow-vs-funds.md/" />
+    <id>http://localhost:4000/blog/posts/cashflow-vs-funds/</id>
+    <content type="text/html" src="http://localhost:4000/blog/posts/cashflow-vs-funds/" />
     <author>
       <name>株式会社グラフル</name>
     </author>
@@ -41,30 +41,6 @@
   
 
   <summary>はじめに 「資金繰り表」と「キャッシュフロー計算書」。 どちらも「お金の流れ」を扱うツールですが、目的と役割は大きく異なります。 この記事では、両者の違いを経営の現場目線で整理します。    資金繰り表とは？    毎日の入金・出金を追いかける「短期の資金管理ツール」   目的：資金ショートを防ぐ   単位：日・週・月ごと   見えるもの：現預金残高の推移   💡 例：来月15日の支払いに現金が足りるか？    キャッシュフロー計算書とは？    決算書に含まれる「財務報告ツール」   目的：企業全体の資金創出力を示す   単位：四半期・年単位   見えるもの：営業CF／投資CF／財務CFの全体像   💡 例：この1年間で会社はどれだけキャッシュを生み出したか？    決定的な違い    資金繰り表 = “未来予測のツール”   キャッシュフロー計算書 = “過去実績の報告”    ...</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>ブログ公開準備中</title>
-    <link href="http://localhost:4000/blog/posts/coming-soon.md/" rel="alternate" type="text/html" title="ブログ公開準備中" />
-    <published>2025-09-09T12:00:00+09:00</published>
-  
-    <updated>2025-09-09T12:00:00+09:00</updated>
-  
-    <id>http://localhost:4000/blog/posts/coming-soon.md/</id>
-    <content type="text/html" src="http://localhost:4000/blog/posts/coming-soon.md/" />
-    <author>
-      <name>株式会社グラフル</name>
-    </author>
-
-  
-    
-    <category term="お知らせ" />
-    
-  
-
-  <summary>当社ブログは現在準備中です。近日中に記事を公開予定ですので、ぜひご期待ください。</summary>
 
   </entry>
 
