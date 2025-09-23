@@ -24,7 +24,6 @@ jobs:
           bundle install
           bundle exec jekyll build
 
-
       # 会社HPを gh-pages ルートにコピー
       - name: Deploy Company HP
         uses: peaceiris/actions-gh-pages@v4
@@ -39,7 +38,6 @@ jobs:
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./blog_src/_site
+          publish_dir: ./blog_src/_site   # ここはルートから見たパスでOK
           destination_dir: blog
-          keep_files: true
-
+          keep_files: false               # 古い記事を削除して最新記事を反映
