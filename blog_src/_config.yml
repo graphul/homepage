@@ -151,7 +151,8 @@ paginate: 10
 
 # The base URL of your site
 baseurl: "/blog"
-destination: ../blog-build   # 一旦 blog フォルダの外にビルド
+destination: ./_site   # 一旦 blog フォルダの外にビルド
+# destination: ../blog-build   # もし、ローカルで試しに記事のhtml化を確認したいときは、destinationをblog-buildにする
 
 # ------------ The following options are not recommended to be modified ------------------
 

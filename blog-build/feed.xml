@@ -1,17 +1,17 @@
 
 
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <id>http://localhost:4000/blog/</id>
+  <id>https://graphul.jp/blog/</id>
   <title>グラフルブログ</title>
   <subtitle>会計や資金繰り表に関する内容をお届けします。</subtitle>
-  <updated>2025-09-23T10:25:13+09:00</updated>
+  <updated>2025-09-23T10:54:26+09:00</updated>
   <author>
     <name>株式会社グラフル</name>
-    <uri>http://localhost:4000/blog/</uri>
+    <uri>https://graphul.jp/blog/</uri>
   </author>
-  <link rel="self" type="application/atom+xml" href="http://localhost:4000/blog/feed.xml"/>
+  <link rel="self" type="application/atom+xml" href="https://graphul.jp/blog/feed.xml"/>
   <link rel="alternate" type="text/html" hreflang="ja"
-    href="http://localhost:4000/blog/"/>
+    href="https://graphul.jp/blog/"/>
   <generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator>
   <rights> © 2025 株式会社グラフル </rights>
   <icon>/blog/assets/img/favicons/favicon.ico</icon>
@@ -21,13 +21,13 @@
   
   <entry>
     <title>「資金繰り表」と「キャッシュフロー計算書」の決定的な違いとは？</title>
-    <link href="http://localhost:4000/blog/posts/cashflow-vs-funds/" rel="alternate" type="text/html" title="「資金繰り表」と「キャッシュフロー計算書」の決定的な違いとは？" />
+    <link href="https://graphul.jp/blog/posts/cashflow-vs-funds.md/" rel="alternate" type="text/html" title="「資金繰り表」と「キャッシュフロー計算書」の決定的な違いとは？" />
     <published>2025-09-23T08:00:00+09:00</published>
   
-    <updated>2025-09-23T08:00:00+09:00</updated>
+    <updated>2025-09-23T10:49:42+09:00</updated>
   
-    <id>http://localhost:4000/blog/posts/cashflow-vs-funds/</id>
-    <content type="text/html" src="http://localhost:4000/blog/posts/cashflow-vs-funds/" />
+    <id>https://graphul.jp/blog/posts/cashflow-vs-funds.md/</id>
+    <content type="text/html" src="https://graphul.jp/blog/posts/cashflow-vs-funds.md/" />
     <author>
       <name>株式会社グラフル</name>
     </author>
