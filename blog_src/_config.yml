@@ -226,3 +226,9 @@ jekyll-archives:
   permalinks:
     tag: /tags/:name/
     category: /categories/:name/
+
+# _config.yml
+font:
+  primary: "Noto Sans JP"
+  code: "Fira Code"
+
