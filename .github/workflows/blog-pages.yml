@@ -9,37 +9,26 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      # 1. リポジトリのチェックアウト
       - uses: actions/checkout@v4
 
-      # 2. Ruby セットアップ
+      # Ruby セットアップ
       - uses: ruby/setup-ruby@v1
         with:
           ruby-version: '3.1'
           bundler-cache: true
 
-      # 3. Jekyll ビルド
+      # Jekyll build
       - name: Build Jekyll blog
         run: |
           cd blog_src
           bundle install
           bundle exec jekyll build
 
-      # 4. デプロイ用ディレクトリを作成
-      - name: Prepare deploy directory
-        run: |
-          mkdir deploy
-          # deploy フォルダ自身をコピー対象から除外して会社HPをコピー
-          shopt -s extglob
-          cp -r !(deploy) deploy/
-          # ブログを deploy/blog にコピー
-          cp -r ./blog_src/_site deploy/blog
-
-      # 5. gh-pages ブランチにまとめてデプロイ
-      - name: Deploy to GitHub Pages
+      # 会社HPとブログをまとめて gh-pages にデプロイ
+      - name: Deploy to gh-pages
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./deploy
-          destination_dir: .
-          keep_files: true    # 他のファイルを残す場合は true
+          publish_dir: ./               # main 直下の会社HPと blog_src/_site をまとめてコピー
+          keep_files: false
+          publish_branch: gh-pages
