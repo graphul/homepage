@@ -41,3 +41,4 @@ jobs:
           publish_dir: ./blog_src/_site   # ここはルートから見たパスでOK
           destination_dir: blog
           keep_files: false               # 古い記事を削除して最新記事を反映
+          force_orphan: true   # ←追加
