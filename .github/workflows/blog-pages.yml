@@ -8,27 +8,39 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
+
     steps:
+      # リポジトリをチェックアウト
       - uses: actions/checkout@v4
 
-      # Ruby セットアップ
+      # Ruby セットアップ（Jekyll 用）
       - uses: ruby/setup-ruby@v1
         with:
           ruby-version: '3.1'
           bundler-cache: true
 
-      # Jekyll build
+      # Jekyll ブログのビルド
       - name: Build Jekyll blog
         run: |
           cd blog_src
           bundle install
-          bundle exec jekyll build
+          bundle exec jekyll build  # _site に最新HTMLが生成される
 
-      # 会社HPとブログをまとめて gh-pages にデプロイ
+      # デプロイ用ディレクトリを作成
+      - name: Prepare deploy directory
+        run: |
+          rm -rf deploy
+          mkdir deploy
+          # 会社HPのファイルだけコピー
+          cp -r index.html assets deploy/
+          # ブログを deploy/blog にコピー（必ず最新の _site から）
+          cp -r blog_src/_site deploy/blog
+
+      # gh-pages ブランチにデプロイ
       - name: Deploy to gh-pages
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./               # main 直下の会社HPと blog_src/_site をまとめてコピー
-          keep_files: false
-          publish_branch: gh-pages
+          publish_dir: ./deploy          # デプロイ用ディレクトリを指定
+          publish_branch: gh-pages       # gh-pages にプッシュ
+          keep_files: false              # 古いファイルは削除
