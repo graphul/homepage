@@ -24,21 +24,19 @@ jobs:
           bundle install
           bundle exec jekyll build
 
-      # 会社HPを gh-pages ルートにコピー
-      - name: Deploy Company HP
-        uses: peaceiris/actions-gh-pages@v4
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./             # main直下の会社HPをそのまま
-          destination_dir: .
-          keep_files: true
+      # デプロイ用フォルダ作成
+      - name: Prepare deploy directory
+        run: |
+          mkdir deploy
+          # 会社HPをコピー（main直下のindex.htmlなど）
+          cp -r ./* ./deploy/
+          # blog を deploy/blog にコピー
+          cp -r ./blog_src/_site ./deploy/blog
 
-      # ブログを gh-pages/blog に配置
-      - name: Deploy Blog
+      # デプロイ実行
+      - name: Deploy All
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./blog_src/_site   # ここはルートから見たパスでOK
-          destination_dir: blog
-          keep_files: false               # 古い記事を削除して最新記事を反映
-          force_orphan: true   # ←追加
+          publish_dir: ./deploy
+          force_orphan: true
