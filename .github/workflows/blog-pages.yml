@@ -24,23 +24,24 @@ jobs:
         run: |
           cd blog_src
           bundle install
-          bundle exec jekyll build  # _site に最新HTMLが生成される
+          bundle exec jekyll build  # blog_src/_site に最新HTMLが生成される
 
       # デプロイ用ディレクトリを作成
       - name: Prepare deploy directory
         run: |
           rm -rf deploy
           mkdir deploy
-          # 会社HPのファイルだけコピー
+          # 会社HPのファイルをコピー
           cp -r index.html assets deploy/
-          # ブログを deploy/blog にコピー（必ず最新の _site から）
-          cp -r blog_src/_site deploy/blog
+          # ブログを deploy/blog にコピー
+          cp -r blog_src/_site/* deploy/blog/
 
       # gh-pages ブランチにデプロイ
       - name: Deploy to gh-pages
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./deploy          # デプロイ用ディレクトリを指定
-          publish_branch: gh-pages       # gh-pages にプッシュ
-          keep_files: false              # 古いファイルは削除
+          publish_dir: ./deploy
+          publish_branch: gh-pages
+          keep_files: false
+          force_orphan: true   # ← gh-pages を常にクリーンに作り直す
