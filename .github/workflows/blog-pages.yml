@@ -45,4 +45,6 @@ jobs:
           publish_dir: ./deploy
           publish_branch: gh-pages
           keep_files: false
-          force_orphan: true   # ← gh-pages を常にクリーンに作り直す
+          force_orphan: true
+          cname: graphul.jp   # ← これを追加
+
