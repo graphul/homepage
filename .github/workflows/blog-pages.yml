@@ -30,11 +30,12 @@ jobs:
       - name: Prepare deploy directory
         run: |
           rm -rf deploy
-          mkdir -p deploy/blog   # blog ディレクトリも作成しておく
-          # 会社HPのファイルをコピー
-          cp -r index.html assets deploy/
+          mkdir -p deploy/blog
+          # 会社HPのファイルをコピー（index.html, assets, css, js）
+          cp -r index.html assets css js deploy/
           # ブログを deploy/blog にコピー
           cp -r blog_src/_site/* deploy/blog/
+
 
 
       # gh-pages ブランチにデプロイ
