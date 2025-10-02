@@ -232,3 +232,8 @@ font:
   primary: "Noto Sans JP"
   code: "Fira Code"
 
+  # ページメニュー設定
+menu:
+  - title: "About"
+    url: /about/
+
