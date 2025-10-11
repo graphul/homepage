@@ -1,0 +1,155 @@
+
+
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>https://graphul.jp/blog/</id>
+  <title>グラフルブログ</title>
+  <subtitle>会計や資金繰り表に関する内容をお届けします。</subtitle>
+  <updated>2025-10-12T02:44:52+09:00</updated>
+  <author>
+    <name>株式会社グラフル</name>
+    <uri>https://graphul.jp/blog/</uri>
+  </author>
+  <link rel="self" type="application/atom+xml" href="https://graphul.jp/blog/feed.xml"/>
+  <link rel="alternate" type="text/html" hreflang="ja"
+    href="https://graphul.jp/blog/"/>
+  <generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator>
+  <rights> © 2025 株式会社グラフル </rights>
+  <icon>/blog/assets/img/favicons/favicon.ico</icon>
+  <logo>/blog/assets/img/favicons/favicon-96x96.png</logo>
+
+
+  
+  <entry>
+    <title>経理事務の生産性向上 第2回：RPA・ERP編</title>
+    <link href="https://graphul.jp/blog/posts/page12/" rel="alternate" type="text/html" title="経理事務の生産性向上 第2回：RPA・ERP編" />
+    <published>2025-10-10T00:00:00+09:00</published>
+  
+    <updated>2025-10-10T00:00:00+09:00</updated>
+  
+    <id>https://graphul.jp/blog/posts/page12/</id>
+    <content type="text/html" src="https://graphul.jp/blog/posts/page12/" />
+    <author>
+      <name>株式会社グラフル</name>
+    </author>
+
+  
+    
+    <category term="経理" />
+    
+    <category term="生産性向上" />
+    
+    <category term="IT活用" />
+    
+  
+
+  <summary>経理事務の生産性向上シリーズ第2回。RPAやERP導入による経理作業効率化の具体例と導入時の注意点を解説します。</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>経理事務の生産性向上について（第1回）｜Excel関数・VBAで効率化を進める</title>
+    <link href="https://graphul.jp/blog/posts/page11/" rel="alternate" type="text/html" title="経理事務の生産性向上について（第1回）｜Excel関数・VBAで効率化を進める" />
+    <published>2025-10-08T12:00:00+09:00</published>
+  
+    <updated>2025-10-08T12:00:00+09:00</updated>
+  
+    <id>https://graphul.jp/blog/posts/page11/</id>
+    <content type="text/html" src="https://graphul.jp/blog/posts/page11/" />
+    <author>
+      <name>株式会社グラフル</name>
+    </author>
+
+  
+    
+    <category term="経営改善" />
+    
+    <category term="業務効率化" />
+    
+  
+
+  <summary>経理事務の生産性向上は、給与上昇が続く現代において避けて通れないテーマです。今回は、Excel関数やVBAを活用して経理業務を効率化する具体的な方法を紹介します。</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>原価率分析で陥りがちな落とし穴と回避のポイント</title>
+    <link href="https://graphul.jp/blog/posts/page10/" rel="alternate" type="text/html" title="原価率分析で陥りがちな落とし穴と回避のポイント" />
+    <published>2025-10-07T09:00:00+09:00</published>
+  
+    <updated>2025-10-07T09:00:00+09:00</updated>
+  
+    <id>https://graphul.jp/blog/posts/page10/</id>
+    <content type="text/html" src="https://graphul.jp/blog/posts/page10/" />
+    <author>
+      <name>株式会社グラフル</name>
+    </author>
+
+  
+    
+    <category term="管理会計" />
+    
+    <category term="原価管理" />
+    
+  
+
+  <summary>原価率分析を行う際にありがちな落とし穴を解説。材料費、人件費、外注費の原価計算や固定費・変動費の区別、請求書の読み方まで、実務に役立つポイントを具体例とともに紹介します。</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>高市政権で長期的に意識しておきたいこと ─ 企業経営が備えるべき視点とは</title>
+    <link href="https://graphul.jp/blog/posts/page9/" rel="alternate" type="text/html" title="高市政権で長期的に意識しておきたいこと ─ 企業経営が備えるべき視点とは" />
+    <published>2025-10-06T10:00:00+09:00</published>
+  
+    <updated>2025-10-06T10:00:00+09:00</updated>
+  
+    <id>https://graphul.jp/blog/posts/page9/</id>
+    <content type="text/html" src="https://graphul.jp/blog/posts/page9/" />
+    <author>
+      <name>株式会社グラフル</name>
+    </author>
+
+  
+    
+    <category term="政治・経済" />
+    
+    <category term="経営戦略" />
+    
+  
+
+  <summary>自民党で新たに選出された高市総裁・次期政権の政策方向を踏まえ、企業経営視点で長期に意識すべき論点を整理しました。金融・為替・物価・値上げ戦略などの観点から、資金繰り表に落とし込むための示唆をお届けします。</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>資金繰り表を作るなら、支出は「変動費・固定費」だけでは不十分？３分類で考えるキャッシュの流れ</title>
+    <link href="https://graphul.jp/blog/posts/page8/" rel="alternate" type="text/html" title="資金繰り表を作るなら、支出は「変動費・固定費」だけでは不十分？３分類で考えるキャッシュの流れ" />
+    <published>2025-10-05T09:00:00+09:00</published>
+  
+    <updated>2025-10-05T09:00:00+09:00</updated>
+  
+    <id>https://graphul.jp/blog/posts/page8/</id>
+    <content type="text/html" src="https://graphul.jp/blog/posts/page8/" />
+    <author>
+      <name>株式会社グラフル</name>
+    </author>
+
+  
+    
+    <category term="資金繰り表" />
+    
+    <category term="経営管理" />
+    
+  
+
+  <summary>資金繰り表を作成する際、支出を「変動費・固定費」でしか整理していないと、実態を正確に把握できません。この記事では、資金繰りを正しく説明するための３分類（固定支出・変動支出・スポット支出）の考え方と、経営者・金融機関とのコミュニケーションで役立つ整理方法を解説します。</summary>
+
+  </entry>
+
+</feed>
+
+
