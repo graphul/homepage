@@ -16,7 +16,7 @@ timezone: Asia/Tokyo
 
 title: グラフルブログ # the main title
 
-tagline: 会計や資金繰り表に関する内容をお届けします。 # it will display as the subtitle
+tagline: 会計や資金繰り表に関する内容をお届けします。お仕事のお問い合わせはABOUTからどうぞ。 # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
   会計や資金繰り表に関する内容をお届けします。
