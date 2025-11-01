@@ -1,0 +1,157 @@
+
+
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>https://graphul.jp/blog/</id>
+  <title>グラフルブログ</title>
+  <subtitle>会計や資金繰り表に関する内容をお届けします。</subtitle>
+  <updated>2025-11-01T23:14:30+09:00</updated>
+  <author>
+    <name>株式会社グラフル</name>
+    <uri>https://graphul.jp/blog/</uri>
+  </author>
+  <link rel="self" type="application/atom+xml" href="https://graphul.jp/blog/feed.xml"/>
+  <link rel="alternate" type="text/html" hreflang="ja"
+    href="https://graphul.jp/blog/"/>
+  <generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator>
+  <rights> © 2025 株式会社グラフル </rights>
+  <icon>/blog/assets/img/favicons/favicon.ico</icon>
+  <logo>/blog/assets/img/favicons/favicon-96x96.png</logo>
+
+
+  
+  <entry>
+    <title>経理が成長する組織をどう作るか？【専門性編】</title>
+    <link href="https://graphul.jp/blog/posts/page15/" rel="alternate" type="text/html" title="経理が成長する組織をどう作るか？【専門性編】" />
+    <published>2025-11-01T00:00:00+09:00</published>
+  
+    <updated>2025-11-01T00:00:00+09:00</updated>
+  
+    <id>https://graphul.jp/blog/posts/page15/</id>
+    <content type="text/html" src="https://graphul.jp/blog/posts/page15/" />
+    <author>
+      <name>株式会社グラフル</name>
+    </author>
+
+  
+    
+    <category term="経理人材育成" />
+    
+  
+
+  <summary>「なぜ経理担当者は忙しいふりを覚えてしまうのか？」の続編。経理が本当に成長するために必要な“専門性”と“環境”の整え方を解説します。</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>なぜ経理担当者は“忙しいふり”を覚えてしまうのか？</title>
+    <link href="https://graphul.jp/blog/posts/page14/" rel="alternate" type="text/html" title="なぜ経理担当者は“忙しいふり”を覚えてしまうのか？" />
+    <published>2025-10-31T00:00:00+09:00</published>
+  
+    <updated>2025-10-31T00:00:00+09:00</updated>
+  
+    <id>https://graphul.jp/blog/posts/page14/</id>
+    <content type="text/html" src="https://graphul.jp/blog/posts/page14/" />
+    <author>
+      <name>株式会社グラフル</name>
+    </author>
+
+  
+    
+    <category term="経営管理" />
+    
+    <category term="バックオフィス改革" />
+    
+    <category term="組織課題" />
+    
+  
+
+  <summary>目次    第1章：成長できない経理の“出発点”   第2章：中小企業では「成長の天井」が低い   第3章：税理士任せの“受け身経理”   第4章：楽を覚えた経理が職場に与える静かな悪影響   第5章：孤立する少人数部署の限界   第6章：成長を阻む二軸の構造   第7章：そして、誰も育たない職場へ   結び     第1章：成長できない経理の“出発点”  「うちの経理は育たない」――この言葉の裏には、単なる個人の怠慢ではなく、 成長機会を奪う構造があります。  まず、最大の問題は「お手本がいない」こと。 優秀な経理・財務部長がいれば、その姿を目指してスキルを磨くことができます。 しかし多くの中小企業では、そもそもそうした上司が存在しません。 仕訳をこなすだけの“事務員さん”が経理部を支えている――そんな構図が一般的です。  そして、仮に上司がいたとしても、 部下の育成を意識的に行う...</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>経理事務の生産性向上 第3回：Python・BIツール編</title>
+    <link href="https://graphul.jp/blog/posts/page13/" rel="alternate" type="text/html" title="経理事務の生産性向上 第3回：Python・BIツール編" />
+    <published>2025-10-12T00:00:00+09:00</published>
+  
+    <updated>2025-10-12T00:00:00+09:00</updated>
+  
+    <id>https://graphul.jp/blog/posts/page13/</id>
+    <content type="text/html" src="https://graphul.jp/blog/posts/page13/" />
+    <author>
+      <name>株式会社グラフル</name>
+    </author>
+
+  
+    
+    <category term="経理" />
+    
+    <category term="生産性向上" />
+    
+    <category term="IT活用" />
+    
+  
+
+  <summary>経理事務の生産性向上シリーズ第3回。PythonやBIツールを活用したデータ処理・分析の効率化方法を具体例とともに解説します。</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>経理事務の生産性向上 第2回：RPA・ERP編</title>
+    <link href="https://graphul.jp/blog/posts/page12/" rel="alternate" type="text/html" title="経理事務の生産性向上 第2回：RPA・ERP編" />
+    <published>2025-10-10T00:00:00+09:00</published>
+  
+    <updated>2025-10-10T00:00:00+09:00</updated>
+  
+    <id>https://graphul.jp/blog/posts/page12/</id>
+    <content type="text/html" src="https://graphul.jp/blog/posts/page12/" />
+    <author>
+      <name>株式会社グラフル</name>
+    </author>
+
+  
+    
+    <category term="経理" />
+    
+    <category term="生産性向上" />
+    
+    <category term="IT活用" />
+    
+  
+
+  <summary>経理事務の生産性向上シリーズ第2回。RPAやERP導入による経理作業効率化の具体例と導入時の注意点を解説します。</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>経理事務の生産性向上について（第1回）｜Excel関数・VBAで効率化を進める</title>
+    <link href="https://graphul.jp/blog/posts/page11/" rel="alternate" type="text/html" title="経理事務の生産性向上について（第1回）｜Excel関数・VBAで効率化を進める" />
+    <published>2025-10-08T12:00:00+09:00</published>
+  
+    <updated>2025-10-08T12:00:00+09:00</updated>
+  
+    <id>https://graphul.jp/blog/posts/page11/</id>
+    <content type="text/html" src="https://graphul.jp/blog/posts/page11/" />
+    <author>
+      <name>株式会社グラフル</name>
+    </author>
+
+  
+    
+    <category term="経営改善" />
+    
+    <category term="業務効率化" />
+    
+  
+
+  <summary>経理事務の生産性向上は、給与上昇が続く現代において避けて通れないテーマです。今回は、Excel関数やVBAを活用して経理業務を効率化する具体的な方法を紹介します。</summary>
+
+  </entry>
+
+</feed>
+
+
