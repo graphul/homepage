@@ -1,0 +1,143 @@
+
+
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>https://graphul.jp/blog/</id>
+  <title>グラフルブログ</title>
+  <subtitle>会計や資金繰り表に関する内容をお届けします。</subtitle>
+  <updated>2025-12-29T13:53:08+09:00</updated>
+  <author>
+    <name>株式会社グラフル</name>
+    <uri>https://graphul.jp/blog/</uri>
+  </author>
+  <link rel="self" type="application/atom+xml" href="https://graphul.jp/blog/feed.xml"/>
+  <link rel="alternate" type="text/html" hreflang="ja"
+    href="https://graphul.jp/blog/"/>
+  <generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator>
+  <rights> © 2025 株式会社グラフル </rights>
+  <icon>/blog/assets/img/favicons/favicon.ico</icon>
+  <logo>/blog/assets/img/favicons/favicon-96x96.png</logo>
+
+
+  
+  <entry>
+    <title>政府・日銀の景気判断表現を読み解く｜景気循環と言葉の対応関係</title>
+    <link href="https://graphul.jp/blog/posts/page19/" rel="alternate" type="text/html" title="政府・日銀の景気判断表現を読み解く｜景気循環と言葉の対応関係" />
+    <published>2025-12-22T00:00:00+09:00</published>
+  
+    <updated>2025-12-22T00:00:00+09:00</updated>
+  
+    <id>https://graphul.jp/blog/posts/page19/</id>
+    <content type="text/html" src="https://graphul.jp/blog/posts/page19/" />
+    <author>
+      <name>株式会社グラフル</name>
+    </author>
+
+  
+    
+    <category term="マクロ経済・景気分析" />
+    
+  
+
+  <summary>政府や日銀が用いる「持ち直し」「回復」「足踏み」などの景気判断表現について、景気循環との対応関係や実務上の読み取り方を整理して解説します。</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>なぜ銀行マンはあなたの会社に何度も来るのか？ ～銀行役員の来訪にがっかりした経理時代の話～</title>
+    <link href="https://graphul.jp/blog/posts/page18/" rel="alternate" type="text/html" title="なぜ銀行マンはあなたの会社に何度も来るのか？ ～銀行役員の来訪にがっかりした経理時代の話～" />
+    <published>2025-11-22T00:00:00+09:00</published>
+  
+    <updated>2025-11-22T00:00:00+09:00</updated>
+  
+    <id>https://graphul.jp/blog/posts/page18/</id>
+    <content type="text/html" src="https://graphul.jp/blog/posts/page18/" />
+    <author>
+      <name>株式会社グラフル</name>
+    </author>
+
+  
+    
+    <category term="ビジネス・経営" />
+    
+  
+
+  <summary>銀行マンが何度も会社に来る理由は理想論と現実論がある。政府系銀行でのシンクタンク経験と通販会社での経理経験から見えた、銀行の本音と面談の活用法を生々しく解説。</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>不動産ディベロッパーが直面する最新の市場環境とは？──価格高騰・在庫リスク・需要の二極化</title>
+    <link href="https://graphul.jp/blog/posts/page17/" rel="alternate" type="text/html" title="不動産ディベロッパーが直面する最新の市場環境とは？──価格高騰・在庫リスク・需要の二極化" />
+    <published>2025-11-20T00:00:00+09:00</published>
+  
+    <updated>2025-11-20T00:00:00+09:00</updated>
+  
+    <id>https://graphul.jp/blog/posts/page17/</id>
+    <content type="text/html" src="https://graphul.jp/blog/posts/page17/" />
+    <author>
+      <name>株式会社グラフル</name>
+    </author>
+
+  
+    
+    <category term="不動産市場・経営分析" />
+    
+  
+
+  <summary>マンションディベロッパーへのヒアリング内容をもとに、現在の分譲マンション市場が抱える構造的な課題と今後のリスクについて整理します。</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>なぜ大手企業は都会の大卒を採用したいのか？</title>
+    <link href="https://graphul.jp/blog/posts/page16/" rel="alternate" type="text/html" title="なぜ大手企業は都会の大卒を採用したいのか？" />
+    <published>2025-11-19T00:00:00+09:00</published>
+  
+    <updated>2025-11-19T00:00:00+09:00</updated>
+  
+    <id>https://graphul.jp/blog/posts/page16/</id>
+    <content type="text/html" src="https://graphul.jp/blog/posts/page16/" />
+    <author>
+      <name>株式会社グラフル</name>
+    </author>
+
+  
+    
+    <category term="人材採用・組織づくり" />
+    
+  
+
+  <summary>少子化が進み採用が難しくなる中、企業が都会の大卒人材を求める背景を、実際の経営者の声を交えながら解説します。地方採用との比較や、企業が本当に重視しているポイントについて考察します。</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>経理が成長する組織をどう作るか？【専門性編】</title>
+    <link href="https://graphul.jp/blog/posts/page15/" rel="alternate" type="text/html" title="経理が成長する組織をどう作るか？【専門性編】" />
+    <published>2025-11-01T00:00:00+09:00</published>
+  
+    <updated>2025-11-01T00:00:00+09:00</updated>
+  
+    <id>https://graphul.jp/blog/posts/page15/</id>
+    <content type="text/html" src="https://graphul.jp/blog/posts/page15/" />
+    <author>
+      <name>株式会社グラフル</name>
+    </author>
+
+  
+    
+    <category term="経理人材育成" />
+    
+  
+
+  <summary>「なぜ経理担当者は忙しいふりを覚えてしまうのか？」の続編。経理が本当に成長するために必要な“専門性”と“環境”の整え方を解説します。</summary>
+
+  </entry>
+
+</feed>
+
+
