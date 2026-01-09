@@ -1,0 +1,143 @@
+
+
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>https://graphul.jp/blog/</id>
+  <title>グラフルブログ</title>
+  <subtitle>会計や資金繰り表に関する内容をお届けします。</subtitle>
+  <updated>2026-01-09T23:49:40+09:00</updated>
+  <author>
+    <name>株式会社グラフル</name>
+    <uri>https://graphul.jp/blog/</uri>
+  </author>
+  <link rel="self" type="application/atom+xml" href="https://graphul.jp/blog/feed.xml"/>
+  <link rel="alternate" type="text/html" hreflang="ja"
+    href="https://graphul.jp/blog/"/>
+  <generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator>
+  <rights> © 2026 株式会社グラフル </rights>
+  <icon>/blog/assets/img/favicons/favicon.ico</icon>
+  <logo>/blog/assets/img/favicons/favicon-96x96.png</logo>
+
+
+  
+  <entry>
+    <title>先行・一致・遅行指数で読み解く政府・日銀の経済統計</title>
+    <link href="https://graphul.jp/blog/posts/page23-statistics/" rel="alternate" type="text/html" title="先行・一致・遅行指数で読み解く政府・日銀の経済統計" />
+    <published>2026-01-08T00:00:00+09:00</published>
+  
+    <updated>2026-01-08T00:00:00+09:00</updated>
+  
+    <id>https://graphul.jp/blog/posts/page23-statistics/</id>
+    <content type="text/html" src="https://graphul.jp/blog/posts/page23-statistics/" />
+    <author>
+      <name>株式会社グラフル</name>
+    </author>
+
+  
+    
+    <category term="マクロ経済・景気分析" />
+    
+  
+
+  <summary>はじめに｜「どの統計を、どのタイミングで見るべきか」    政府や日本銀行は、景気や経済動向を把握するために、数多くの経済統計を公表しています。  しかし、     統計が多すぎて、どれを見ればよいのかわからない   発表された数値を見ても「今の景気」を表しているのか、「少し前の状況」なのか判断しづらい   と感じたことはないでしょうか。  この疑問に答えるための重要な整理軸が、先行指数・一致指数・遅行指数という考え方です。  本記事では、     先行・一致・遅行指数とは何か   なぜこの区分が重要なのか   代表的な統計とその位置づけ   理解を深めるためのクイズ   という流れで解説します。    先行・一致・遅行指数とは何か  3つの指数の全体像  まずは全体像を簡単に整理します。                 区分       景気との関係       主な特徴     ...</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>V字回復が起きた会社で、社長はどう去るべきか</title>
+    <link href="https://graphul.jp/blog/posts/page22-exit-03/" rel="alternate" type="text/html" title="V字回復が起きた会社で、社長はどう去るべきか" />
+    <published>2026-01-06T00:00:00+09:00</published>
+  
+    <updated>2026-01-06T00:00:00+09:00</updated>
+  
+    <id>https://graphul.jp/blog/posts/page22-exit-03/</id>
+    <content type="text/html" src="https://graphul.jp/blog/posts/page22-exit-03/" />
+    <author>
+      <name>株式会社グラフル</name>
+    </author>
+
+  
+    
+    <category term="経営戦略" />
+    
+  
+
+  <summary>敏腕後継者によって業績が回復したとき、株の価値は一変する。社長に残された『最も選択肢が多い時間』の使い方を解説。</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>株を相続するという幻想 ― 事業承継で本当に怖いもの</title>
+    <link href="https://graphul.jp/blog/posts/page21-exit-02/" rel="alternate" type="text/html" title="株を相続するという幻想 ― 事業承継で本当に怖いもの" />
+    <published>2026-01-05T00:00:00+09:00</published>
+  
+    <updated>2026-01-05T00:00:00+09:00</updated>
+  
+    <id>https://graphul.jp/blog/posts/page21-exit-02/</id>
+    <content type="text/html" src="https://graphul.jp/blog/posts/page21-exit-02/" />
+    <author>
+      <name>株式会社グラフル</name>
+    </author>
+
+  
+    
+    <category term="事業承継" />
+    
+  
+
+  <summary>未上場企業の株式相続で本当に問題になるのは税金ではない。社長の死後、家族と会社に何が起きるのかを現実ベースで解説します。</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>成功の裏で進む静かな行き詰まり ― 内部留保が社長を縛るとき</title>
+    <link href="https://graphul.jp/blog/posts/page20-exit-01/" rel="alternate" type="text/html" title="成功の裏で進む静かな行き詰まり ― 内部留保が社長を縛るとき" />
+    <published>2026-01-04T00:00:00+09:00</published>
+  
+    <updated>2026-01-04T00:00:00+09:00</updated>
+  
+    <id>https://graphul.jp/blog/posts/page20-exit-01/</id>
+    <content type="text/html" src="https://graphul.jp/blog/posts/page20-exit-01/" />
+    <author>
+      <name>株式会社グラフル</name>
+    </author>
+
+  
+    
+    <category term="経営・財務" />
+    
+  
+
+  <summary>一世を風靡した会社ほど陥りやすい『内部留保の罠』。PLが縮み、BSだけが膨らむとき、社長個人に何が起きるのかを解説します。</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>政府・日銀の景気判断表現を読み解く｜景気循環と言葉の対応関係</title>
+    <link href="https://graphul.jp/blog/posts/page19/" rel="alternate" type="text/html" title="政府・日銀の景気判断表現を読み解く｜景気循環と言葉の対応関係" />
+    <published>2025-12-22T00:00:00+09:00</published>
+  
+    <updated>2025-12-22T00:00:00+09:00</updated>
+  
+    <id>https://graphul.jp/blog/posts/page19/</id>
+    <content type="text/html" src="https://graphul.jp/blog/posts/page19/" />
+    <author>
+      <name>株式会社グラフル</name>
+    </author>
+
+  
+    
+    <category term="マクロ経済・景気分析" />
+    
+  
+
+  <summary>政府や日銀が用いる「持ち直し」「回復」「足踏み」などの景気判断表現について、景気循環との対応関係や実務上の読み取り方を整理して解説します。</summary>
+
+  </entry>
+
+</feed>
+
+
