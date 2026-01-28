@@ -1,0 +1,143 @@
+
+
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>https://graphul.jp/blog/</id>
+  <title>グラフルブログ</title>
+  <subtitle>会計や資金繰り表に関する内容をお届けします。</subtitle>
+  <updated>2026-01-28T21:47:24+09:00</updated>
+  <author>
+    <name>株式会社グラフル</name>
+    <uri>https://graphul.jp/blog/</uri>
+  </author>
+  <link rel="self" type="application/atom+xml" href="https://graphul.jp/blog/feed.xml"/>
+  <link rel="alternate" type="text/html" hreflang="ja"
+    href="https://graphul.jp/blog/"/>
+  <generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator>
+  <rights> © 2026 株式会社グラフル </rights>
+  <icon>/blog/assets/img/favicons/favicon.ico</icon>
+  <logo>/blog/assets/img/favicons/favicon-96x96.png</logo>
+
+
+  
+  <entry>
+    <title>セカンダリー取引とは何か？｜未上場株セカンダリーが注目される背景</title>
+    <link href="https://graphul.jp/blog/posts/page37-secondary/" rel="alternate" type="text/html" title="セカンダリー取引とは何か？｜未上場株セカンダリーが注目される背景" />
+    <published>2026-01-28T00:00:00+09:00</published>
+  
+    <updated>2026-01-28T00:00:00+09:00</updated>
+  
+    <id>https://graphul.jp/blog/posts/page37-secondary/</id>
+    <content type="text/html" src="https://graphul.jp/blog/posts/page37-secondary/" />
+    <author>
+      <name>株式会社グラフル</name>
+    </author>
+
+  
+    
+    <category term="金融・資本市場" />
+    
+  
+
+  <summary>セカンダリー取引の基本的な定義から、近年注目されている未上場株のセカンダリー取引まで、プライマリー取引との違いや実務上の意味を整理して解説します。</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>ハレの日消費とは何か｜「特別な支出」が景気と企業業績に与える影響</title>
+    <link href="https://graphul.jp/blog/posts/page36-day/" rel="alternate" type="text/html" title="ハレの日消費とは何か｜「特別な支出」が景気と企業業績に与える影響" />
+    <published>2026-01-26T00:00:00+09:00</published>
+  
+    <updated>2026-01-26T00:00:00+09:00</updated>
+  
+    <id>https://graphul.jp/blog/posts/page36-day/</id>
+    <content type="text/html" src="https://graphul.jp/blog/posts/page36-day/" />
+    <author>
+      <name>株式会社グラフル</name>
+    </author>
+
+  
+    
+    <category term="マクロ経済・消費動向" />
+    
+  
+
+  <summary>結婚式や旅行、記念日などの「ハレの日消費」とは何か。日常消費（ケの日消費）との違いや、景気・企業業績との関係、実務での読み取り方を解説します。</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>日経平均株価とは何か｜仕組み・特徴・読み解き方を実務目線で解説</title>
+    <link href="https://graphul.jp/blog/posts/page35-Stock-Average/" rel="alternate" type="text/html" title="日経平均株価とは何か｜仕組み・特徴・読み解き方を実務目線で解説" />
+    <published>2026-01-25T00:00:00+09:00</published>
+  
+    <updated>2026-01-25T00:00:00+09:00</updated>
+  
+    <id>https://graphul.jp/blog/posts/page35-Stock-Average/</id>
+    <content type="text/html" src="https://graphul.jp/blog/posts/page35-Stock-Average/" />
+    <author>
+      <name>株式会社グラフル</name>
+    </author>
+
+  
+    
+    <category term="マクロ経済・金融市場" />
+    
+  
+
+  <summary>日経平均株価の算出方法（加重平均）、大手企業の影響を受けやすい理由、先行指標として注目される背景、定期的な銘柄入替の意味などを、実務での使い方を交えて解説します。</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>マクロ経済とミクロ経済の違いをどう読むか｜企業経営・会計分析で重要な視点</title>
+    <link href="https://graphul.jp/blog/posts/page34-micro/" rel="alternate" type="text/html" title="マクロ経済とミクロ経済の違いをどう読むか｜企業経営・会計分析で重要な視点" />
+    <published>2026-01-22T00:00:00+09:00</published>
+  
+    <updated>2026-01-22T00:00:00+09:00</updated>
+  
+    <id>https://graphul.jp/blog/posts/page34-micro/</id>
+    <content type="text/html" src="https://graphul.jp/blog/posts/page34-micro/" />
+    <author>
+      <name>株式会社グラフル</name>
+    </author>
+
+  
+    
+    <category term="会計・経営分析" />
+    
+  
+
+  <summary>政府・日銀の経済報告や経済ニュースで語られるマクロ経済と、企業や個人が直面するミクロ経済の違いを整理し、企業経営や会計分析にどう生かすべきかを解説します。</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>会計分析で本当に大事なのは「トレンド」を読むこと｜過去説明で終わらせないための考え方</title>
+    <link href="https://graphul.jp/blog/posts/page32-prediction/" rel="alternate" type="text/html" title="会計分析で本当に大事なのは「トレンド」を読むこと｜過去説明で終わらせないための考え方" />
+    <published>2026-01-21T00:00:00+09:00</published>
+  
+    <updated>2026-01-21T00:00:00+09:00</updated>
+  
+    <id>https://graphul.jp/blog/posts/page32-prediction/</id>
+    <content type="text/html" src="https://graphul.jp/blog/posts/page32-prediction/" />
+    <author>
+      <name>株式会社グラフル</name>
+    </author>
+
+  
+    
+    <category term="会計・経営分析" />
+    
+  
+
+  <summary>会計分析は単なる過去の数字説明ではありません。業績のトレンドを読み、未来を予測し、経営判断につなげるために何を意識すべきかを解説します。</summary>
+
+  </entry>
+
+</feed>
+
+
