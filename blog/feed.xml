@@ -1,0 +1,143 @@
+
+
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>https://graphul.jp/blog/</id>
+  <title>グラフルブログ</title>
+  <subtitle>会計や資金繰り表に関する内容をお届けします。</subtitle>
+  <updated>2026-01-31T01:28:50+09:00</updated>
+  <author>
+    <name>株式会社グラフル</name>
+    <uri>https://graphul.jp/blog/</uri>
+  </author>
+  <link rel="self" type="application/atom+xml" href="https://graphul.jp/blog/feed.xml"/>
+  <link rel="alternate" type="text/html" hreflang="ja"
+    href="https://graphul.jp/blog/"/>
+  <generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator>
+  <rights> © 2026 株式会社グラフル </rights>
+  <icon>/blog/assets/img/favicons/favicon.ico</icon>
+  <logo>/blog/assets/img/favicons/favicon-96x96.png</logo>
+
+
+  
+  <entry>
+    <title>リベンジ消費と消費税減税──いま注目すべき消費行動の変化</title>
+    <link href="https://graphul.jp/blog/posts/page39-revenge/" rel="alternate" type="text/html" title="リベンジ消費と消費税減税──いま注目すべき消費行動の変化" />
+    <published>2026-01-29T00:00:00+09:00</published>
+  
+    <updated>2026-01-29T00:00:00+09:00</updated>
+  
+    <id>https://graphul.jp/blog/posts/page39-revenge/</id>
+    <content type="text/html" src="https://graphul.jp/blog/posts/page39-revenge/" />
+    <author>
+      <name>株式会社グラフル</name>
+    </author>
+
+  
+    
+    <category term="経済解説" />
+    
+  
+
+  <summary>物価高や消費税減税を巡る議論を背景に、リベンジ消費のメカニズムと企業が注意すべき経営判断について解説します。</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>未上場株セカンダリーは企業価値を下げるのか？｜評価が下がるケースと下がらないケース</title>
+    <link href="https://graphul.jp/blog/posts/page38-secondary2/" rel="alternate" type="text/html" title="未上場株セカンダリーは企業価値を下げるのか？｜評価が下がるケースと下がらないケース" />
+    <published>2026-01-28T00:00:00+09:00</published>
+  
+    <updated>2026-01-28T00:00:00+09:00</updated>
+  
+    <id>https://graphul.jp/blog/posts/page38-secondary2/</id>
+    <content type="text/html" src="https://graphul.jp/blog/posts/page38-secondary2/" />
+    <author>
+      <name>株式会社グラフル</name>
+    </author>
+
+  
+    
+    <category term="金融・資本市場" />
+    
+  
+
+  <summary>未上場株のセカンダリー取引は企業価値を下げるのか。よくある誤解を整理しつつ、企業価値にマイナスとなるケース・ならないケースをファイナンスの視点から解説します。</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>セカンダリー取引とは何か？｜未上場株セカンダリーが注目される背景</title>
+    <link href="https://graphul.jp/blog/posts/page37-secondary/" rel="alternate" type="text/html" title="セカンダリー取引とは何か？｜未上場株セカンダリーが注目される背景" />
+    <published>2026-01-28T00:00:00+09:00</published>
+  
+    <updated>2026-01-28T00:00:00+09:00</updated>
+  
+    <id>https://graphul.jp/blog/posts/page37-secondary/</id>
+    <content type="text/html" src="https://graphul.jp/blog/posts/page37-secondary/" />
+    <author>
+      <name>株式会社グラフル</name>
+    </author>
+
+  
+    
+    <category term="金融・資本市場" />
+    
+  
+
+  <summary>セカンダリー取引の基本的な定義から、近年注目されている未上場株のセカンダリー取引まで、プライマリー取引との違いや実務上の意味を整理して解説します。</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>ハレの日消費とは何か｜「特別な支出」が景気と企業業績に与える影響</title>
+    <link href="https://graphul.jp/blog/posts/page36-day/" rel="alternate" type="text/html" title="ハレの日消費とは何か｜「特別な支出」が景気と企業業績に与える影響" />
+    <published>2026-01-26T00:00:00+09:00</published>
+  
+    <updated>2026-01-26T00:00:00+09:00</updated>
+  
+    <id>https://graphul.jp/blog/posts/page36-day/</id>
+    <content type="text/html" src="https://graphul.jp/blog/posts/page36-day/" />
+    <author>
+      <name>株式会社グラフル</name>
+    </author>
+
+  
+    
+    <category term="マクロ経済・消費動向" />
+    
+  
+
+  <summary>結婚式や旅行、記念日などの「ハレの日消費」とは何か。日常消費（ケの日消費）との違いや、景気・企業業績との関係、実務での読み取り方を解説します。</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>日経平均株価とは何か｜仕組み・特徴・読み解き方を実務目線で解説</title>
+    <link href="https://graphul.jp/blog/posts/page35-Stock-Average/" rel="alternate" type="text/html" title="日経平均株価とは何か｜仕組み・特徴・読み解き方を実務目線で解説" />
+    <published>2026-01-25T00:00:00+09:00</published>
+  
+    <updated>2026-01-25T00:00:00+09:00</updated>
+  
+    <id>https://graphul.jp/blog/posts/page35-Stock-Average/</id>
+    <content type="text/html" src="https://graphul.jp/blog/posts/page35-Stock-Average/" />
+    <author>
+      <name>株式会社グラフル</name>
+    </author>
+
+  
+    
+    <category term="マクロ経済・金融市場" />
+    
+  
+
+  <summary>日経平均株価の算出方法（加重平均）、大手企業の影響を受けやすい理由、先行指標として注目される背景、定期的な銘柄入替の意味などを、実務での使い方を交えて解説します。</summary>
+
+  </entry>
+
+</feed>
+
+
