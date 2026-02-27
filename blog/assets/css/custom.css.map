@@ -1,0 +1,1 @@
+{"version":3,"sourceRoot":"","sources":["custom.scss"],"names":[],"mappings":"AACA,yCACE","sourcesContent":["/* custom.scss */\nbody, h1, h2, h3, h4, h5, h6, p, li, blockquote, a {\n  font-family: \"Noto Sans JP\", sans-serif;\n}\n"],"file":"custom.css"}

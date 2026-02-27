@@ -1,0 +1,143 @@
+
+
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>https://graphul.jp/blog/</id>
+  <title>グラフルブログ</title>
+  <subtitle>会計や資金繰り表に関する内容をお届けします。</subtitle>
+  <updated>2026-02-27T16:40:29+09:00</updated>
+  <author>
+    <name>株式会社グラフル</name>
+    <uri>https://graphul.jp/blog/</uri>
+  </author>
+  <link rel="self" type="application/atom+xml" href="https://graphul.jp/blog/feed.xml"/>
+  <link rel="alternate" type="text/html" hreflang="ja"
+    href="https://graphul.jp/blog/"/>
+  <generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator>
+  <rights> © 2026 株式会社グラフル </rights>
+  <icon>/blog/assets/img/favicons/favicon.ico</icon>
+  <logo>/blog/assets/img/favicons/favicon-96x96.png</logo>
+
+
+  
+  <entry>
+    <title>日銀の新任審議委員（浅田氏・佐藤氏）を解説：キーワードはフィリップス曲線</title>
+    <link href="https://graphul.jp/blog/posts/page48-bojboard/" rel="alternate" type="text/html" title="日銀の新任審議委員（浅田氏・佐藤氏）を解説：キーワードはフィリップス曲線" />
+    <published>2026-02-25T00:00:00+09:00</published>
+  
+    <updated>2026-02-25T00:00:00+09:00</updated>
+  
+    <id>https://graphul.jp/blog/posts/page48-bojboard/</id>
+    <content type="text/html" src="https://graphul.jp/blog/posts/page48-bojboard/" />
+    <author>
+      <name>株式会社グラフル</name>
+    </author>
+
+  
+    
+    <category term="金融政策" />
+    
+  
+
+  <summary>政府が提示した日銀審議委員（浅田統一郎氏・佐藤綾野氏）の人事背景、学者起用の意図、今後の政策運営の見通しをやさしく解説します。</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>KDDI傘下企業の不正会計をわかりやすく解説：上場企業に蔓延する循環取引とは</title>
+    <link href="https://graphul.jp/blog/posts/page47-kddi/" rel="alternate" type="text/html" title="KDDI傘下企業の不正会計をわかりやすく解説：上場企業に蔓延する循環取引とは" />
+    <published>2026-02-22T00:00:00+09:00</published>
+  
+    <updated>2026-02-22T00:00:00+09:00</updated>
+  
+    <id>https://graphul.jp/blog/posts/page47-kddi/</id>
+    <content type="text/html" src="https://graphul.jp/blog/posts/page47-kddi/" />
+    <author>
+      <name>株式会社グラフル</name>
+    </author>
+
+  
+    
+    <category term="経営・会計" />
+    
+  
+
+  <summary>KDDI傘下企業で発覚した不正会計問題を、財務のプロの視点でわかりやすく解説。不正の仕組み、背景をまとめた記事です。上場廃止の株式会社オルツでも発覚した循環取引とは。</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>ドラマばかりの日銀総裁人事（第4章）突然の植田総裁人事：路線転換のメッセージ</title>
+    <link href="https://graphul.jp/blog/posts/page46-bojgovernor4/" rel="alternate" type="text/html" title="ドラマばかりの日銀総裁人事（第4章）突然の植田総裁人事：路線転換のメッセージ" />
+    <published>2026-02-18T00:00:00+09:00</published>
+  
+    <updated>2026-02-18T00:00:00+09:00</updated>
+  
+    <id>https://graphul.jp/blog/posts/page46-bojgovernor4/</id>
+    <content type="text/html" src="https://graphul.jp/blog/posts/page46-bojgovernor4/" />
+    <author>
+      <name>株式会社グラフル</name>
+    </author>
+
+  
+    
+    <category term="日本経済・金融政策" />
+    
+  
+
+  <summary>なぜ雨宮氏が辞退し、植田総裁が選ばれたのか。異例の人事が示す“路線転換”の背景を多角的に読み解く。</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>ドラマばかりの日銀総裁人事（第3章）〜黒田路線の継承なるか-幻の雨宮総裁-〜</title>
+    <link href="https://graphul.jp/blog/posts/page45-bojgovernor3/" rel="alternate" type="text/html" title="ドラマばかりの日銀総裁人事（第3章）〜黒田路線の継承なるか-幻の雨宮総裁-〜" />
+    <published>2026-02-17T00:00:00+09:00</published>
+  
+    <updated>2026-02-17T00:00:00+09:00</updated>
+  
+    <id>https://graphul.jp/blog/posts/page45-bojgovernor3/</id>
+    <content type="text/html" src="https://graphul.jp/blog/posts/page45-bojgovernor3/" />
+    <author>
+      <name>株式会社グラフル</name>
+    </author>
+
+  
+    
+    <category term="日本経済・金融政策" />
+    
+  
+
+  <summary>なぜ日銀総裁人事は白紙に戻ったのか。黒田体制、雨宮待望論を解説する。</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>ドラマばかりの日銀総裁人事（第2章）黒田総裁の異次元緩和は、なぜ “彼” でなければできなかったのか</title>
+    <link href="https://graphul.jp/blog/posts/page44-bojgovernor2/" rel="alternate" type="text/html" title="ドラマばかりの日銀総裁人事（第2章）黒田総裁の異次元緩和は、なぜ “彼” でなければできなかったのか" />
+    <published>2026-02-16T00:00:00+09:00</published>
+  
+    <updated>2026-02-16T00:00:00+09:00</updated>
+  
+    <id>https://graphul.jp/blog/posts/page44-bojgovernor2/</id>
+    <content type="text/html" src="https://graphul.jp/blog/posts/page44-bojgovernor2/" />
+    <author>
+      <name>株式会社グラフル</name>
+    </author>
+
+  
+    
+    <category term="日本経済・金融政策" />
+    
+  
+
+  <summary>黒田総裁の異次元緩和は、なぜ黒田氏以外には実行できなかったのか。総裁人事の舞台裏から、政治と日銀の力学を読み解く。</summary>
+
+  </entry>
+
+</feed>
+
+
