@@ -44,3 +44,12 @@ strong {
   text-decoration-color: #ff4d4f;
   text-underline-offset: 3px; /* 下線を少し下にずらす */
 }
+
+blockquote::before {
+  content: "“";
+  font-size: 20px;
+  color: #ff8a3d;
+  position: absolute;
+  left: 0;
+  top: -4px;
+}
