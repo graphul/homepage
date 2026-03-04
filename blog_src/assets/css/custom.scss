@@ -37,3 +37,10 @@ h3 {
   border-radius: 4px;
   margin-top: 1.6em;
 }
+
+strong {
+  text-decoration: underline;
+  text-decoration-style: wavy;
+  text-decoration-color: #ff4d4f;
+  text-underline-offset: 3px; /* 下線を少し下にずらす */
+}
