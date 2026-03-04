@@ -45,11 +45,41 @@ strong {
   text-underline-offset: 3px; /* 下線を少し下にずらす */
 }
 
+/* 引用（>）部分：左線を消し、“で囲むスタイル */
+blockquote {
+  border-left: none;            /* 左線を消す */
+  padding: 12px 16px;
+  margin-left: 0;
+  color: #333;
+  position: relative;
+  font-style: italic;           /* 引用感を出す：不要なら消してOK */
+}
+
+/* 開始の “ を追加 */
 blockquote::before {
   content: "“";
-  font-size: 20px;
-  color: #ff8a3d;
+  font-size: 28px;
+  color: #ff4d4d;               /* アクセントとして引用符を赤に */
   position: absolute;
-  left: 0;
-  top: -4px;
+  left: -4px;
+  top: 0;
+}
+
+/* 終了の ” を追加 */
+blockquote::after {
+  content: "”";
+  font-size: 28px;
+  color: #ff4d4d;
+  position: absolute;
+  right: -4px;
+  bottom: -8px;
+}
+
+/* 引用文の赤い点線アンダーライン */
+blockquote p,
+blockquote {
+  text-decoration-line: underline;
+  text-decoration-color: #ff4d4d;
+  text-decoration-style: dotted;    /* 点線 */
+  text-underline-offset: 4px;
 }
