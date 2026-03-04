@@ -2,6 +2,38 @@
 ---
 
 /* custom.scss */
+
+/* 既存のフォント設定 */
 body, h1, h2, h3, h4, h5, h6, p, li, blockquote, a {
   font-family: "Noto Sans JP", sans-serif;
+}
+
+/* ------- ここから見出しデザインを追加 ------- */
+
+/* --- H1：オレンジ系 --- */
+h1 {
+  background-color: #fff4e8;       /* かなり淡いオレンジ */
+  border-left: 6px solid #ff8a3d;  /* 明るいオレンジのライン */
+  padding: 12px 16px;
+  border-radius: 6px;
+  margin-top: 2.2em;
+}
+
+/* --- H2：ブルー系（前のまま）--- */
+/* 変更したい場合は教えてください！ */
+h2 {
+  background-color: #eaf4ff;
+  border-left: 4px solid #3b82f6;
+  padding: 10px 14px;
+  border-radius: 6px;
+  margin-top: 2em;
+}
+
+/* --- H3：淡いグリーン --- */
+h3 {
+  background-color: #f2fbf4;       /* 超淡い緑（白に近い） */
+  border-left: 3px solid #84d3a0;  /* 優しいグリーンのライン */
+  padding: 8px 12px;
+  border-radius: 4px;
+  margin-top: 1.6em;
 }
