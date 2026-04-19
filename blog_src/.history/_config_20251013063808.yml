@@ -16,7 +16,7 @@ timezone: Asia/Tokyo
 
 title: グラフルブログ # the main title
 
-tagline: 経済や会計分析、資金繰り表に関する内容をお届けします。過去記事一覧→メニュー一覧のARCHIVE。お仕事のお問い合わせ→ABOUTから会社HPのお問い合わせフォームへ。 # it will display as the subtitle
+tagline: 会計や資金繰り表に関する内容をお届けします。お仕事のお問い合わせはABOUTからどうぞ。 # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
   会計や資金繰り表に関する内容をお届けします。
@@ -26,10 +26,10 @@ description: >- # used by seo meta and the atom feed
 url: "https://graphul.jp"
 
 # github:
-# username: github_username # change to your GitHub username
+ # username: github_username # change to your GitHub username
 
 #twitter:
-# username: graphul # change to your Twitter username
+ # username: graphul # change to your Twitter username
 
 social:
   # Change to your full name.
@@ -151,7 +151,7 @@ paginate: 10
 
 # The base URL of your site
 baseurl: "/blog"
-destination: ./_site # 一旦 blog フォルダの外にビルド
+destination: ./_site   # 一旦 blog フォルダの外にビルド
 # destination: ../blog-build   # もし、ローカルで試しに記事のhtml化を確認したいときは、destinationをblog-buildにする
 
 # ------------ The following options are not recommended to be modified ------------------
@@ -236,3 +236,4 @@ font:
 menu:
   - title: "About"
     url: /about/
+

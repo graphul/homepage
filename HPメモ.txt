@@ -1,0 +1,2 @@
+ホーム画面編集は以下を参照
+\homepage\blog_src\_config.yml
