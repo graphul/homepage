@@ -1,0 +1,143 @@
+
+
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>https://graphul.jp/blog/</id>
+  <title>グラフルブログ</title>
+  <subtitle>会計や資金繰り表に関する内容をお届けします。</subtitle>
+  <updated>2026-06-10T01:45:41+09:00</updated>
+  <author>
+    <name>株式会社グラフル</name>
+    <uri>https://graphul.jp/blog/</uri>
+  </author>
+  <link rel="self" type="application/atom+xml" href="https://graphul.jp/blog/feed.xml"/>
+  <link rel="alternate" type="text/html" hreflang="ja"
+    href="https://graphul.jp/blog/"/>
+  <generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator>
+  <rights> © 2026 株式会社グラフル </rights>
+  <icon>/blog/assets/img/favicons/favicon.ico</icon>
+  <logo>/blog/assets/img/favicons/favicon-96x96.png</logo>
+
+
+  
+  <entry>
+    <title>総額2.5億円のサンリオ承認外報酬問題から学ぶガバナンスの盲点―特別調査委員会報告書を読み解く</title>
+    <link href="https://graphul.jp/blog/posts/page59-override/" rel="alternate" type="text/html" title="総額2.5億円のサンリオ承認外報酬問題から学ぶガバナンスの盲点―特別調査委員会報告書を読み解く" />
+    <published>2026-06-09T00:00:00+09:00</published>
+  
+    <updated>2026-06-09T00:00:00+09:00</updated>
+  
+    <id>https://graphul.jp/blog/posts/page59-override/</id>
+    <content type="text/html" src="https://graphul.jp/blog/posts/page59-override/" />
+    <author>
+      <name>株式会社グラフル</name>
+    </author>
+
+  
+    
+    <category term="不祥事分析" />
+    
+  
+
+  <summary>サンリオの承認外報酬問題について、特別調査委員会報告書の内容をもとに、不適切報酬の実態とガバナンス上の課題を解説します。</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>KDDI不正会計から学ぶ循環取引の兆候とは？発覚前に見えていた6つのサイン</title>
+    <link href="https://graphul.jp/blog/posts/page58-signs/" rel="alternate" type="text/html" title="KDDI不正会計から学ぶ循環取引の兆候とは？発覚前に見えていた6つのサイン" />
+    <published>2026-06-05T00:00:00+09:00</published>
+  
+    <updated>2026-06-05T00:00:00+09:00</updated>
+  
+    <id>https://graphul.jp/blog/posts/page58-signs/</id>
+    <content type="text/html" src="https://graphul.jp/blog/posts/page58-signs/" />
+    <author>
+      <name>株式会社グラフル</name>
+    </author>
+
+  
+    
+    <category term="会計・財務" />
+    
+  
+
+  <summary>KDDI子会社の不正会計問題を題材に、循環取引に共通する兆候を解説。売上高、利益率、資金繰り、借入金、商流の観点から、発覚前に見えていたサインを読み解きます。</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>KDDI不正会計から学ぶCMS（キャッシュ・マネジメント・システム）とは？資金効率化の仕組みと落とし穴</title>
+    <link href="https://graphul.jp/blog/posts/page57-cms/" rel="alternate" type="text/html" title="KDDI不正会計から学ぶCMS（キャッシュ・マネジメント・システム）とは？資金効率化の仕組みと落とし穴" />
+    <published>2026-06-02T00:00:00+09:00</published>
+  
+    <updated>2026-06-02T00:00:00+09:00</updated>
+  
+    <id>https://graphul.jp/blog/posts/page57-cms/</id>
+    <content type="text/html" src="https://graphul.jp/blog/posts/page57-cms/" />
+    <author>
+      <name>株式会社グラフル</name>
+    </author>
+
+  
+    
+    <category term="会計・財務" />
+    
+  
+
+  <summary>KDDI子会社の不正会計問題を題材に、CMS（キャッシュ・マネジメント・システム）の仕組みやメリット、グループファイナンスとの関係、管理上の注意点を解説します。</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>Apexに学ぶデータドリブン経営──ゲーム運営の思考はなぜ企業経営に応用できるのか</title>
+    <link href="https://graphul.jp/blog/posts/page56-apex/" rel="alternate" type="text/html" title="Apexに学ぶデータドリブン経営──ゲーム運営の思考はなぜ企業経営に応用できるのか" />
+    <published>2026-04-25T00:00:00+09:00</published>
+  
+    <updated>2026-04-25T00:00:00+09:00</updated>
+  
+    <id>https://graphul.jp/blog/posts/page56-apex/</id>
+    <content type="text/html" src="https://graphul.jp/blog/posts/page56-apex/" />
+    <author>
+      <name>株式会社グラフル</name>
+    </author>
+
+  
+    
+    <category term="経営・データ分析" />
+    
+  
+
+  <summary>Apex Legendsのデザイナーノートに見るデータ分析アプローチを分解し、企業経営におけるデータドリブン経営への応用方法と実践上のポイントを解説します。</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>サンリオ不正報酬問題を徹底解剖──急成長の裏で何が起きたのか</title>
+    <link href="https://graphul.jp/blog/posts/page55-sanrio/" rel="alternate" type="text/html" title="サンリオ不正報酬問題を徹底解剖──急成長の裏で何が起きたのか" />
+    <published>2026-04-19T00:00:00+09:00</published>
+  
+    <updated>2026-04-19T00:00:00+09:00</updated>
+  
+    <id>https://graphul.jp/blog/posts/page55-sanrio/</id>
+    <content type="text/html" src="https://graphul.jp/blog/posts/page55-sanrio/" />
+    <author>
+      <name>株式会社グラフル</name>
+    </author>
+
+  
+    
+    <category term="経営・財務" />
+    
+  
+
+  <summary>サンリオで発覚した役員の不正報酬問題について、業績回復の背景、経営体制の変化、報酬設計の歪みなどを踏まえ、構造的な要因と教訓を解説します。</summary>
+
+  </entry>
+
+</feed>
+
+
