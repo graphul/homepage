@@ -6,7 +6,7 @@ theme: jekyll-theme-chirpy
 # The language of the webpage › http://www.lingoes.net/en/translator/langcode.htm
 # If it has the same name as one of the files in folder `_data/locales`, the layout language will also be changed,
 # otherwise, the layout language will use the default value of 'en'.
-lang: ja
+lang: ja-JP
 
 # Change to your timezone › https://kevinnovak.github.io/Time-Zone-Picker
 timezone: Asia/Tokyo
@@ -16,10 +16,10 @@ timezone: Asia/Tokyo
 
 title: グラフルブログ # the main title
 
-tagline: 経済や会計分析、資金繰り表に関する内容をお届けします。過去記事一覧→メニュー一覧のARCHIVE。お仕事のお問い合わせ→ABOUTから会社HPのお問い合わせフォームへ。 # it will display as the subtitle
+tagline: 経済や会計分析、経理に関する内容をお届けします。  # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
-  会計や資金繰り表に関する内容をお届けします。
+  経済や会計分析、経理に関する内容をお届けします。
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
