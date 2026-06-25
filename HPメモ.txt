@@ -3,3 +3,6 @@
 
 ホーム画面のメニューバーは
 blog_src/_data/locales/ja-JP.yml
+
+ブログのフォーマット
+Jekyll + Chirpy

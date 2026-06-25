@@ -236,3 +236,7 @@ font:
 menu:
   - title: "About"
     url: /about/
+
+# リダイレクト設定
+plugins:
+  - jekyll-redirect-from
