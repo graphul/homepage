@@ -5,7 +5,7 @@ categories: [Finance, Cashflow]
 tags: [資金繰り, キャッシュフロー計算書, 経営管理]
 description: "資金繰り表ではなくキャッシュフロー計算書で管理しようと考えてしまう背景と、そのメリット・限界を整理します。"
 redirect_from:
-  - /blog/posts/page2/
+  - /posts/page2/
 ---
 
 企業経営者や経理担当者の中には、  
