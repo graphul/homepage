@@ -240,3 +240,4 @@ menu:
 # リダイレクト設定
 plugins:
   - jekyll-redirect-from
+  - jekyll-archives
