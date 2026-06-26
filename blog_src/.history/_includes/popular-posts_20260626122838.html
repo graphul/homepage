@@ -1,0 +1,45 @@
+<!-- Get 5 popular posts -->
+
+{% assign MAX_SIZE = 5 %}
+
+{% assign all_list = '' | split: '' %}
+
+{% for post in site.posts %}
+  {% if post.popular == true %}
+    {% assign order = post.popular_order | default: 9999 %}
+
+    {% capture elem %}
+      {{ order }}::{{ forloop.index0 }}
+    {% endcapture %}
+
+    {% assign all_list = all_list | push: elem %}
+  {% endif %}
+{% endfor %}
+
+{% assign all_list = all_list | sort %}
+
+{% assign popular_list = '' | split: '' %}
+
+{% for entry in all_list limit: MAX_SIZE %}
+  {% assign index = entry | split: '::' | last | plus: 0 %}
+  {% assign post = site.posts[index] %}
+  {% assign popular_list = popular_list | push: post %}
+{% endfor %}
+
+{% if popular_list.size > 0 %}
+  <section id="access-popular">
+    <h2 class="panel-heading">
+      {{ site.data.locales[include.lang].panel.popular | default: "おすすめ記事" }}
+    </h2>
+
+    <ul class="content list-unstyled ps-0 pb-1 ms-1 mt-2">
+      {% for post in popular_list %}
+        <li class="text-truncate lh-lg">
+          <a href="{{ post.url | relative_url }}">
+            {{ post.title }}
+          </a>
+        </li>
+      {% endfor %}
+    </ul>
+  </section>
+{% endif %}

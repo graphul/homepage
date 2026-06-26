@@ -1,0 +1,39 @@
+{% assign MAX_SIZE = 5 %}
+
+{% assign all_list = '' | split: '' %}
+
+{% for post in site.posts %}
+  {% if post.popular == true %}
+    {% assign order = post.popular_order | default: 9999 %}
+
+    {% capture elem %}
+      {{ order }}::{{ forloop.index0 }}
+    {% endcapture %}
+
+    {% assign all_list = all_list | push: elem %}
+  {% endif %}
+{% endfor %}
+
+{% assign all_list = all_list | sort %}
+
+{% assign popular_list = '' | split: '' %}
+
+{% for item in all_list limit: MAX_SIZE %}
+  {% assign index = item | split: '::' | last | plus: 0 %}
+  {% assign post = site.posts[index] %}
+  {% assign popular_list = popular_list | push: post %}
+{% endfor %}
+
+<div class="sidebar-widget popular-posts">
+  <h3 class="widget-title">おすすめ記事</h3>
+
+  <ul class="popular-posts-list">
+    {% for post in popular_list %}
+      <li class="popular-post-item text-truncate">
+        <a href="{{ post.url | relative_url }}">
+          {{ post.title }}
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+</div>

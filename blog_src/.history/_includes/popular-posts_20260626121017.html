@@ -1,0 +1,15 @@
+<div class="sidebar-widget popular-posts">
+  <h3 class="widget-title">おすすめ記事</h3>
+
+  <ul class="popular-posts-list">
+    {% assign popular_posts = site.posts | where: "popular", true | sort: "popular_order" %}
+
+    {% for post in popular_posts limit:5 %}
+      <li class="popular-post-item">
+        <a href="{{ post.url }}">
+          {{ post.title }}
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+</div>

@@ -6,3 +6,35 @@ blog_src/_data/locales/ja-JP.yml
 
 ブログのフォーマット
 Jekyll + Chirpy
+
+ワークフローフォルダは、
+homepage\.github\workflow\blog-pages.yml と
+homepage\blog_src\.github\workflow　
+の2か所存在するが、基本的には
+homepage\.github\workflow
+を触ることになる、いつも違う方を触って無駄になるので注意
+
+Gemfileを触った場合、本番環境はいつも通りのビルド＆デプロイでいいが、
+仮想環境では、bundle installでGemfileのリストをインストールする必要があるので注意
+
+仮想環境でWebサイトの変更がうまくいっているのに、
+本番環境でその変更が反映されない場合は、
+ほぼ確実にビルドが回っているのにデプロイができていない場合がある
+なお、AIはいつもGithub PagesのSettingsでPages設定をActionsにしましょうと教えてくるが、
+これはだいたい間違いなので、gh-pages roots設定のままでよい
+
+文中の赤線や波線は以下で管理
+blog_src/assets/css/custom.scss
+
+ブログページの右サイドバーは
+"C:\Users\creje\homepage\blog_src\_layouts\default.html"
+で全体を管理
+各セクションはそれぞれ
+blog_src\_includes配下の
+update-list.html
+popular-posts.html
+trending-tags.html
+で管理し、
+例外的なCSSを適用するため、
+"C:\Users\creje\homepage\blog_src\_sass\layout\_panel.scss"
+でCSS管理をしている
