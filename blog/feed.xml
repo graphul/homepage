@@ -1,0 +1,143 @@
+
+
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>https://graphul.jp/blog/</id>
+  <title>グラフルブログ</title>
+  <subtitle>経済や会計分析、経理に関する内容をお届けします。</subtitle>
+  <updated>2026-07-02T20:26:56+09:00</updated>
+  <author>
+    <name>株式会社グラフル</name>
+    <uri>https://graphul.jp/blog/</uri>
+  </author>
+  <link rel="self" type="application/atom+xml" href="https://graphul.jp/blog/feed.xml"/>
+  <link rel="alternate" type="text/html" hreflang="ja-JP"
+    href="https://graphul.jp/blog/"/>
+  <generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator>
+  <rights> © 2026 株式会社グラフル </rights>
+  <icon>/blog/assets/img/favicons/favicon.ico</icon>
+  <logo>/blog/assets/img/favicons/favicon-96x96.png</logo>
+
+
+  
+  <entry>
+    <title>【ナポリの窯×ヒカル】コラボ！なぜホリエモンとヒカルのタッグが実現したのか！？太洋物産による企業買収をわかりやすく解説</title>
+    <link href="https://graphul.jp/blog/posts/napori-hikaru-taiyou/" rel="alternate" type="text/html" title="【ナポリの窯×ヒカル】コラボ！なぜホリエモンとヒカルのタッグが実現したのか！？太洋物産による企業買収をわかりやすく解説" />
+    <published>2026-07-01T00:00:00+09:00</published>
+  
+    <updated>2026-07-01T00:00:00+09:00</updated>
+  
+    <id>https://graphul.jp/blog/posts/napori-hikaru-taiyou/</id>
+    <content type="text/html" src="https://graphul.jp/blog/posts/napori-hikaru-taiyou/" />
+    <author>
+      <name>株式会社グラフル</name>
+    </author>
+
+  
+    
+    <category term="企業分析" />
+    
+  
+
+  <summary>ナポリの窯とYouTuberヒカル氏のコラボレーション。その裏側では、太洋物産による企業買収と株式交換という大きな経営戦略が進んでいました。IR資料をもとに、企業買収の仕組みを初心者にもわかりやすく解説します。</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>山梨県地震が富士観光に与える影響を分析～観光客は減ってしまうのか？～</title>
+    <link href="https://graphul.jp/blog/posts/yamanashi-earthquake-impact/" rel="alternate" type="text/html" title="山梨県地震が富士観光に与える影響を分析～観光客は減ってしまうのか？～" />
+    <published>2026-06-29T00:00:00+09:00</published>
+  
+    <updated>2026-06-29T00:00:00+09:00</updated>
+  
+    <id>https://graphul.jp/blog/posts/yamanashi-earthquake-impact/</id>
+    <content type="text/html" src="https://graphul.jp/blog/posts/yamanashi-earthquake-impact/" />
+    <author>
+      <name>株式会社グラフル</name>
+    </author>
+
+  
+    
+    <category term="経済・産業分析" />
+    
+  
+
+  <summary>山梨県東部・富士五湖を震源とする地震によって、富士観光地に最大震度6弱の地震が発生。山梨県の観光データを見ながら、日銀出身の産業調査マンが今後の観光業への影響を分析していきます。</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>植田総裁欠席で注目された内田副総裁。次期総裁候補としての存在感【日銀わかりやすく解説⑤】</title>
+    <link href="https://graphul.jp/blog/posts/page68-deputygovernor/" rel="alternate" type="text/html" title="植田総裁欠席で注目された内田副総裁。次期総裁候補としての存在感【日銀わかりやすく解説⑤】" />
+    <published>2026-06-28T00:00:00+09:00</published>
+  
+    <updated>2026-06-28T00:00:00+09:00</updated>
+  
+    <id>https://graphul.jp/blog/posts/page68-deputygovernor/</id>
+    <content type="text/html" src="https://graphul.jp/blog/posts/page68-deputygovernor/" />
+    <author>
+      <name>株式会社グラフル</name>
+    </author>
+
+  
+    
+    <category term="金融政策" />
+    
+  
+
+  <summary>植田総裁の欠席により、総裁代理として記者会見を行った内田副総裁。日銀の人事慣行や内田副総裁の経歴を振り返りながら、次期総裁候補としての存在感について考えます。</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>忘れられたオーバーシュート型コミットメント。植田日銀は何を変えたのか【日銀わかりやすく解説④】</title>
+    <link href="https://graphul.jp/blog/posts/page67-overshoot/" rel="alternate" type="text/html" title="忘れられたオーバーシュート型コミットメント。植田日銀は何を変えたのか【日銀わかりやすく解説④】" />
+    <published>2026-06-27T00:00:00+09:00</published>
+  
+    <updated>2026-06-27T00:00:00+09:00</updated>
+  
+    <id>https://graphul.jp/blog/posts/page67-overshoot/</id>
+    <content type="text/html" src="https://graphul.jp/blog/posts/page67-overshoot/" />
+    <author>
+      <name>株式会社グラフル</name>
+    </author>
+
+  
+    
+    <category term="金融政策" />
+    
+  
+
+  <summary>黒田日銀が導入した『オーバーシュート型コミットメント』。イールドカーブコントロールの陰に隠れがちだったこの政策は、現在の植田日銀ではどのように変化したのでしょうか。その意味をわかりやすく解説します。</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>円安だから利上げすべき？日銀が為替を政策ターゲットにしない理由【日銀わかりやすく解説③】</title>
+    <link href="https://graphul.jp/blog/posts/page66-weakyen/" rel="alternate" type="text/html" title="円安だから利上げすべき？日銀が為替を政策ターゲットにしない理由【日銀わかりやすく解説③】" />
+    <published>2026-06-26T00:00:00+09:00</published>
+  
+    <updated>2026-06-26T00:00:00+09:00</updated>
+  
+    <id>https://graphul.jp/blog/posts/page66-weakyen/</id>
+    <content type="text/html" src="https://graphul.jp/blog/posts/page66-weakyen/" />
+    <author>
+      <name>株式会社グラフル</name>
+    </author>
+
+  
+    
+    <category term="金融政策" />
+    
+  
+
+  <summary>円安が進むと『日銀はもっと利上げすべき』という声が高まります。しかし、日本銀行の政策目標は為替ではなく物価です。なぜ日銀は為替をターゲットにしないのか、その理由をわかりやすく解説します。</summary>
+
+  </entry>
+
+</feed>
+
+
