@@ -307,3 +307,8 @@ date: "2026-07-06"
 設備投資と財務負担の関係については、別記事で詳しく分析しています。
 
 - [【企業分析】全東信の沿革から見える成長戦略とは？大型設備投資と倒産のタイミングを考察](https://graphul.jp/blog/posts/zentoshin-capital-investment/)  
+
+また、粉飾決算の疑惑についても、金融機関の変遷とともにまとめています。
+
+- [全東信の破産を財務分析～20年前から続いた粉飾決算疑惑と605億円債務超過、金融機関の変遷から見る経営実態～](https://graphul.jp/blog/posts/zentoshin-window-dressing/)  
+
