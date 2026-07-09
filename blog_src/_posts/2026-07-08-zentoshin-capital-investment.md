@@ -344,3 +344,5 @@ date: "2026-07-08"
 ほかの記事では、全東信を別の角度から分析しています。 
 
 - [全東信の破産を財務分析～20年前から続いた粉飾決算疑惑と605億円債務超過、金融機関の変遷から見る経営実態～](https://graphul.jp/blog/posts/zentoshin-window-dressing/)  
+
+- [【企業分析】全東信の名義偽装事件とは？加盟店不正契約の手口と倒産につながった信用不安を解説](https://graphul.jp/blog/posts/zentoshin-name-fraud/)  

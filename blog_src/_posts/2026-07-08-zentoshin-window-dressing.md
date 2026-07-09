@@ -296,3 +296,5 @@ HP掲載金融機関の一部をまとめると以下の通りです。
 - [【企業分析】決済代行会社・全東信はなぜ倒産したのか？コロナ・市場構造の変化・財務構造から読み解く](https://graphul.jp/blog/posts/zentoshin-bankruptcy/)  
 
 - [【企業分析】全東信の沿革から見える成長戦略とは？大型設備投資と倒産のタイミングを考察](https://graphul.jp/blog/posts/zentoshin-capital-investment/)  
+
+- [【企業分析】全東信の名義偽装事件とは？加盟店不正契約の手口と倒産につながった信用不安を解説](https://graphul.jp/blog/posts/zentoshin-name-fraud/)  
