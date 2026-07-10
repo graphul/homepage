@@ -355,3 +355,7 @@ date: "2026-07-06"
 
 - [【企業分析】全東信の名義偽装事件とは？加盟店不正契約の手口と倒産につながった信用不安を解説](https://graphul.jp/blog/posts/zentoshin-name-fraud/)  
 
+その他関連記事
+
+- [【企業分析】全東信の債権者リストを分析～1,130億円の金融債務を支えた金融機関と資金調達構造～](https://graphul.jp/blog/posts/zentoshin-bank-list/)  
+
