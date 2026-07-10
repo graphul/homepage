@@ -258,3 +258,11 @@ date: 2026-07-09
 - [全東信の破産を財務分析～20年前から続いた粉飾決算疑惑と605億円債務超過、金融機関の変遷から見る経営実態～](https://graphul.jp/blog/posts/zentoshin-window-dressing/)
 
 - [【企業分析】全東信の沿革から見える成長戦略とは？大型設備投資と倒産のタイミングを考察](https://graphul.jp/blog/posts/zentoshin-capital-investment/)
+
+また、KDDIグループでの粉飾決算について解説した記事もあります。
+
+- [KDDI傘下企業の不正会計をわかりやすく解説：上場企業に蔓延する循環取引とは](https://graphul.jp/blog/posts/page47-kddi/)  
+
+- [KDDI不正会計から学ぶ循環取引の兆候とは？発覚前に見えていた6つのサイン](https://graphul.jp/blog/posts/page58-signs/)  
+
+- [【不正会計解説】どうして上場企業のバリュークリエーションが循環取引に関わってしまったのか～KDDIの不正会計はここからはじまった～](https://graphul.jp/blog/posts/kddi-fraudulent-accounting/)  
