@@ -308,3 +308,7 @@ date: 2026-07-10 12:00:00 +0900
 - [全東信の破産を財務分析～20年前から続いた粉飾決算疑惑と605億円債務超過、金融機関の変遷から見る経営実態～](https://graphul.jp/blog/posts/zentoshin-window-dressing/)  
 
 - [【企業分析】全東信の名義偽装事件とは？加盟店不正契約の手口と倒産につながった信用不安を解説](https://graphul.jp/blog/posts/zentoshin-name-fraud/)  
+
+- [【金融政策解説】コロナ禍で銀行はなぜ積極的に融資したのか？金融正常化で変わる企業の資金調達環境を解説](https://graphul.jp/blog/posts/corona-disaster-financing/)
+
+- [【企業分析】全東信から見たコロナ禍～飲食店支援と決済代行会社で異なった資金繰り環境とは？](https://graphul.jp/blog/posts/zentoshin-corona-shock/)
