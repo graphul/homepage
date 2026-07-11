@@ -259,6 +259,12 @@ date: 2026-07-09
 
 - [【企業分析】全東信の沿革から見える成長戦略とは？大型設備投資と倒産のタイミングを考察](https://graphul.jp/blog/posts/zentoshin-capital-investment/)
 
+- [【企業分析】全東信の債権者リストを分析～1,130億円の金融債務を支えた金融機関と資金調達構造～](https://graphul.jp/blog/posts/zentoshin-bank-list/)  
+
+- [【金融政策解説】コロナ禍で銀行はなぜ積極的に融資したのか？金融正常化で変わる企業の資金調達環境を解説](https://graphul.jp/blog/posts/corona-disaster-financing/)
+
+- [【企業分析】全東信から見たコロナ禍～飲食店支援と決済代行会社で異なった資金繰り環境とは？](https://graphul.jp/blog/posts/zentoshin-corona-shock/)
+
 また、KDDIグループでの粉飾決算について解説した記事もあります。
 
 - [KDDI傘下企業の不正会計をわかりやすく解説：上場企業に蔓延する循環取引とは](https://graphul.jp/blog/posts/page47-kddi/)  
