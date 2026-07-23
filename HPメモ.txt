@@ -38,3 +38,102 @@ trending-tags.html
 例外的なCSSを適用するため、
 "C:\Users\creje\homepage\blog_src\_sass\layout\_panel.scss"
 でCSS管理をしている
+
+
+ブログページの分析
+C:\Users\creje\blog_analytics\scripts
+
+
+① コマンドプロンプトでそのフォルダへ移動
+
+例：
+
+cd C:\Users\creje\blog_analytics\scripts
+
+
+② 仮想環境を有効化
+
+Windows（コマンドプロンプト）の場合：
+
+.venv\Scripts\activate
+
+成功すると、
+
+コマンドの先頭が
+
+(.venv) C:\workspace\blog_analytics>
+
+のようになります。
+
+③ 認証スクリプトを実行
+python auth_gsc.py
+
+すると、
+
+Please visit this URL to authorize this application:
+https://accounts.google.com/...
+
+のようなURLが表示されるか、自動でブラウザが開きます。
+
+④ Googleアカウントでログイン
+
+GSC・GA4のプロパティにアクセス権限のあるGoogleアカウントでログインします。
+
+GSCとGA4を両方選択しつつ、続行を数回選択
+
+「このアプリは確認されていません」と表示された場合は、以前と同じように
+
+詳細
+（安全ではないページ）に移動
+許可
+
+を選択すればOKです（テストユーザーとして登録済みであれば利用できます）。
+
+⑤ 認証完了
+
+認証が終わると、プロジェクトフォルダ内に
+
+token.json
+
+または
+
+token.pickle
+
+（スクリプトによって名前は異なります）
+
+が作成されます。
+
+以後は
+
+python fetch_gsc_daily.py
+python fetch_ga4_daily.py
+
+を実行するだけでデータを取得できます。
+
+⑥仮想環境の無効化
+deactivate
+
+
+例えば30日分取得したいなら、
+
+python fetch_gsc_daily.py 30
+
+と実行します。
+
+GA4も同様に、
+
+python fetch_ga4_daily.py 30
+
+となります。
+
+なお、引数がなければ180日分のデータを取得
+
+最後に、
+
+python merge_daily.py
+
+を実行して、GA4とGSCデータを結合（日付指定なし）
+
+Search Console APIとGA4 APIは別々にデータを取得し、最後に merge_daily.py で結合しています。
+
+GA4は14か月、GSCは16か月までデータをさかのぼってAPI保存可能
