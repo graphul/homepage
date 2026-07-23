@@ -1,0 +1,143 @@
+
+
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>https://graphul.jp/blog/</id>
+  <title>グラフルブログ</title>
+  <subtitle>経済や会計分析、経理に関する内容をお届けします。</subtitle>
+  <updated>2026-07-24T07:35:17+09:00</updated>
+  <author>
+    <name>株式会社グラフル</name>
+    <uri>https://graphul.jp/blog/</uri>
+  </author>
+  <link rel="self" type="application/atom+xml" href="https://graphul.jp/blog/feed.xml"/>
+  <link rel="alternate" type="text/html" hreflang="ja-JP"
+    href="https://graphul.jp/blog/"/>
+  <generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator>
+  <rights> © 2026 株式会社グラフル </rights>
+  <icon>/blog/assets/img/favicons/favicon.ico</icon>
+  <logo>/blog/assets/img/favicons/favicon-96x96.png</logo>
+
+
+  
+  <entry>
+    <title>AI時代でもシステム開発が失敗する理由～中小企業のシステム自製の落とし穴～</title>
+    <link href="https://graphul.jp/blog/posts/development-issues/" rel="alternate" type="text/html" title="AI時代でもシステム開発が失敗する理由～中小企業のシステム自製の落とし穴～" />
+    <published>2026-07-22T00:00:00+09:00</published>
+  
+    <updated>2026-07-22T00:00:00+09:00</updated>
+  
+    <id>https://graphul.jp/blog/posts/development-issues/</id>
+    <content type="text/html" src="https://graphul.jp/blog/posts/development-issues/" />
+    <author>
+      <name>株式会社グラフル</name>
+    </author>
+
+  
+    
+    <category term="システム開発" />
+    
+  
+
+  <summary>AIによるコード生成技術の進歩で、システム開発のハードルは大きく下がりつつあります。一方、「AIを使えば業務フローを自動化できる」甘い認識が現場と管理職の間で思わぬ認識のギャップを生み出しています。</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>売上データはズレても分析できる。でも経理は1円もズレが許されない～AI時代のシステム開発で本当に重要なのは「開発」ではない～</title>
+    <link href="https://graphul.jp/blog/posts/operational-design/" rel="alternate" type="text/html" title="売上データはズレても分析できる。でも経理は1円もズレが許されない～AI時代のシステム開発で本当に重要なのは「開発」ではない～" />
+    <published>2026-07-21T00:00:00+09:00</published>
+  
+    <updated>2026-07-21T00:00:00+09:00</updated>
+  
+    <id>https://graphul.jp/blog/posts/operational-design/</id>
+    <content type="text/html" src="https://graphul.jp/blog/posts/operational-design/" />
+    <author>
+      <name>株式会社グラフル</name>
+    </author>
+
+  
+    
+    <category term="システム開発" />
+    
+  
+
+  <summary>ニチレイがサーバー攻撃を受けて、業務が一時停止したことを題材に、システム開発と運用・保守における見落としがちな考え方を整理します。AIの台頭によってシステム開発コストが大きく下がりましたが、「その後」を考えて開発できているでしょうか。</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>【企業分析】ニチレイはなぜ数日で物流を再開できたのか？システム障害から考える物流会社のBCP</title>
+    <link href="https://graphul.jp/blog/posts/to-nichirei-accident/" rel="alternate" type="text/html" title="【企業分析】ニチレイはなぜ数日で物流を再開できたのか？システム障害から考える物流会社のBCP" />
+    <published>2026-07-19T00:00:00+09:00</published>
+  
+    <updated>2026-07-19T00:00:00+09:00</updated>
+  
+    <id>https://graphul.jp/blog/posts/to-nichirei-accident/</id>
+    <content type="text/html" src="https://graphul.jp/blog/posts/to-nichirei-accident/" />
+    <author>
+      <name>株式会社グラフル</name>
+    </author>
+
+  
+    
+    <category term="企業分析" />
+    
+  
+
+  <summary>ニチレイのシステム障害を題材に、低温物流の仕組みやBCP、段階的な業務再開の考え方を解説します。『復旧＝完全復旧』ではない物流会社の舞台裏を企業分析の視点から読み解きます。</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>禁断のカードは、なぜ切られたのか ―― マイナス金利導入、その一日の舞台裏</title>
+    <link href="https://graphul.jp/blog/posts/to-negative-interest-rate/" rel="alternate" type="text/html" title="禁断のカードは、なぜ切られたのか ―― マイナス金利導入、その一日の舞台裏" />
+    <published>2026-07-18T00:00:00+09:00</published>
+  
+    <updated>2026-07-18T00:00:00+09:00</updated>
+  
+    <id>https://graphul.jp/blog/posts/to-negative-interest-rate/</id>
+    <content type="text/html" src="https://graphul.jp/blog/posts/to-negative-interest-rate/" />
+    <author>
+      <name>株式会社グラフル</name>
+    </author>
+
+  
+    
+    <category term="日本銀行" />
+    
+  
+
+  <summary>2016年1月29日、日本銀行は歴史上初めてマイナス金利の導入を決定した。その決定は、どのような議論を経て生まれたのか。当時公開された金融政策決定会合の議事録をもとに、人間ドラマとして振り返ります。</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>【企業分析】全東信から見たコロナ禍～飲食店支援と決済代行会社で異なった資金繰り環境とは？</title>
+    <link href="https://graphul.jp/blog/posts/zentoshin-corona-shock/" rel="alternate" type="text/html" title="【企業分析】全東信から見たコロナ禍～飲食店支援と決済代行会社で異なった資金繰り環境とは？" />
+    <published>2026-07-11T00:00:00+09:00</published>
+  
+    <updated>2026-07-11T00:00:00+09:00</updated>
+  
+    <id>https://graphul.jp/blog/posts/zentoshin-corona-shock/</id>
+    <content type="text/html" src="https://graphul.jp/blog/posts/zentoshin-corona-shock/" />
+    <author>
+      <name>株式会社グラフル</name>
+    </author>
+
+  
+    
+    <category term="企業分析" />
+    
+  
+
+  <summary>コロナ禍では飲食店に対して大規模な補助金や融資支援が行われました。一方、飲食店を主要顧客とする決済代行会社・全東信はどのような財務環境に置かれていたのでしょうか。ビジネスモデルの違いから資金繰り環境を考察します。</summary>
+
+  </entry>
+
+</feed>
+
+
