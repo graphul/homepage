@@ -41,17 +41,9 @@ trending-tags.html
 
 
 ブログページの分析
-C:\Users\creje\blog_analytics\scripts
+C:\Users\creje\blog_analytics
 
-
-① コマンドプロンプトでそのフォルダへ移動
-
-例：
-
-cd C:\Users\creje\blog_analytics\scripts
-
-
-② 仮想環境を有効化
+① 仮想環境を有効化
 
 Windows（コマンドプロンプト）の場合：
 
@@ -64,6 +56,13 @@ Windows（コマンドプロンプト）の場合：
 (.venv) C:\workspace\blog_analytics>
 
 のようになります。
+
+② コマンドプロンプトでそのフォルダへ移動
+
+例：
+
+cd C:\Users\creje\blog_analytics\scripts
+
 
 ③ 認証スクリプトを実行
 python auth_gsc.py
@@ -113,6 +112,12 @@ python fetch_ga4_daily.py
 ⑥仮想環境の無効化
 deactivate
 
+そして、
+
+python fetch_all.py
+
+を実行すればすべてのGSC及びGA4ファイルの更新が完了する仕組み
+
 
 例えば30日分取得したいなら、
 
@@ -126,7 +131,9 @@ python fetch_ga4_daily.py 30
 
 となります。
 
-なお、引数がなければ180日分のデータを取得
+なお、引数がなければ600日分のデータを取得
+
+※実質的に取得可能な全期間分
 
 最後に、
 
@@ -137,3 +144,54 @@ python merge_daily.py
 Search Console APIとGA4 APIは別々にデータを取得し、最後に merge_daily.py で結合しています。
 
 GA4は14か月、GSCは16か月までデータをさかのぼってAPI保存可能
+
+
+csvデータを取得したら、
+C:\Users\creje\blog_analytics\data\daily内にある以下のファイルをエクセルで加工して分析
+daily_performance,csv
+ga4_page_daily.csv
+merged_daily.csv
+
+| ファイル                        | 役割                          | どんな時に実行・出力するといいか                                          |
+| --------------------------- | --------------------------- | --------------------------------------------------------- |
+| **analyze_gsc.py**          | GSCデータを分析する                 | GSCの検索パフォーマンスを個別に分析したいとき                                  |
+| **auth_gsc.py**             | GSC APIの認証を行う               | **通常は単独実行不要**。GSC APIを利用するスクリプトから呼び出すための認証処理              |
+| **build_duckdb.py**         | CSV等をDuckDBに取り込んでDBを構築・更新する | GSC・GA4のCSVを更新した後、**DuckDBで分析したいとき**                      |
+| **fetch_ga4_channel.py**    | GA4の流入チャネル別データを取得する         | 「Organic Search / Direct / Socialなど、どこからアクセスされたか」を分析したいとき |
+| **fetch_ga4_daily.py**      | GA4の日別データを取得する              | **日ごとのユーザー・ビュー・セッション等の推移**を分析したいとき                        |
+| **fetch_gsc_daily.py**      | GSCの日別データを取得する              | **日ごとのクリック・インプレッション等の推移**を分析したいとき                         |
+| **fetch_gsc_page.py**       | GSCのページ（記事）別データを取得する        | **どの記事がアクセスを稼いでいるか**を分析したいとき                              |
+| **fetch_gsc_query.py**      | GSCの検索クエリ別データを取得する          | **どんな検索ワードでブログが表示・クリックされているか**を調べたいとき                     |
+| **fetch_gsc_query_page.py** | 「検索クエリ × ページ」別データを取得する      | **どの検索ワードから、どの記事に来ているか**を詳しく調べたいとき                        |
+| **get_date_range.py**       | APIから取得する期間を設定する            | 他の取得スクリプトで**取得期間を変更したいとき**                                |
+| **merge_daily.py**          | GSC・GA4の日次データを統合する          | **GSCとGA4を日別で比較・統合分析したいとき**                               |
+| **sql_analysis.py**         | DuckDBにSQLを実行して分析する         | DuckDBに蓄積したデータから**定型的な分析結果を作りたいとき**                       |
+| **update_all.py**           | データ取得・DB更新・分析等をまとめて実行する司令塔  | **最新データへの更新を一通りまとめて行いたいとき** update_gsc,build_duckdb,sql_analysisを実行|
+| **update_gsc.py**           | GSC関連データの取得・更新をまとめて行う       | **GSCだけ最新データに更新したいとき** daily,page,query,query_page                                    |
+| ****pycache****             | Pythonが自動生成するキャッシュ          | **自分で実行する必要なし**。Pythonが自動的に作成・利用する                        |
+
+update_all.py
+│
+├── update_gsc.py
+│     ↓
+│   GSCデータ取得
+│
+├── update_ga4.py
+│     ↓
+│   GA4データ取得
+│
+├── merge_daily.py
+│     ↓
+│   GSC＋GA4の日次データ統合
+│
+├── analyze_gsc.py
+│     ↓
+│   GSC分析結果作成
+│
+├── build_duckdb.py
+│     ↓
+│   DuckDB構築
+│
+└── sql_analysis.py
+      ↓
+    SQL分析
