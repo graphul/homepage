@@ -114,7 +114,7 @@ deactivate
 
 そして、
 
-python fetch_all.py
+python update_all.py
 
 を実行すればすべてのGSC及びGA4ファイルの更新が完了する仕組み
 
